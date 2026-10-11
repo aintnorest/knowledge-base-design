@@ -12,6 +12,5 @@
     // Pipe spacing in tables is cosmetic; notes use `|---|` separators.
     "MD060": false
   },
-  "globs": ["**/*.md"],
   "ignores": ["archive/*/**", "archive/!(index).md", "inbox/**", ".worktrees/**", "node_modules/**"]
 }

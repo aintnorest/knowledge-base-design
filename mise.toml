@@ -6,11 +6,12 @@ lockfile = true
 [tools]
 node = "24.21.0"
 "npm:markdownlint-cli2" = { version = "0.23.3", depends = ["node"] }
+prek = "0.5.5"
 
 [tasks.lint]
 description = "Lint every note with markdownlint"
-run = "markdownlint-cli2"
+run = "markdownlint-cli2 '**/*.md'"
 
 [tasks."lint:fix"]
 description = "Apply markdownlint's automatic fixes"
-run = "markdownlint-cli2 --fix"
+run = "markdownlint-cli2 --fix '**/*.md'"
