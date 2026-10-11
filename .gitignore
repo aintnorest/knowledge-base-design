@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary Git worktrees used for source ingestion
+.worktrees/
+
+# Obsidian vault settings (local only)
+.obsidian/
+
+# Sources awaiting ingest; license not yet checked
+inbox/*
+!inbox/README.md
+
+# Archived sources whose licenses do not permit redistribution
+archive/private/
