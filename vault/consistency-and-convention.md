@@ -1,0 +1,102 @@
+---
+type: Synthesis
+title: Consistency and Convention
+description: Stable meanings, learned action consequences, and shared conventions let people reuse knowledge, but familiarity is audience-specific and does not require uniform appearance.
+tags: [interaction-design, cognitive-load, digital-interfaces, usability-evaluation]
+timestamp: 2026-10-12T00:00:02Z
+---
+
+# Consistency and Convention
+
+Consistency makes prior learning useful in a new encounter: the same action should
+retain its meaning, and a familiar cue should not unexpectedly produce a different
+consequence. Convention supplies expectations learned across a community.
+Neither principle means making everything look identical or copying a familiar
+pattern regardless of the task.
+
+## How It Works
+
+- **Behavioral consistency** preserves learned commands, sequences, and outcomes.
+  Stable appearance is less useful when an apparently unchanged action behaves
+  differently.
+- **Spatial and linguistic consistency** preserves useful locations and meanings,
+  reducing repeated search and interpretation.
+- **Convention** lets people infer an unfamiliar interface from shared experience.
+  Its force comes from learning, not physical necessity: a cultural constraint
+  can be ignored and is not an enforced safeguard.
+- **Distinguishable differences** communicate genuinely different behavior. A
+  coherent design can vary its appearance when doing so protects expectations
+  better than visual uniformity would.
+
+A convention must be shared by the intended users, not merely familiar to the
+team. The distinction between an available action and a cue communicating it is
+central to [signifier strength](/vault/signifier-strength.md).
+
+## Evidence
+
+The sources support different outcomes rather than one universal effect size:
+
+- **Explanatory coverage:** a single-rater analysis of **101 heuristics and 249
+  known problems from 11 projects** identified consistency and standards as a
+  factor explaining **4.2% of variance in explanation ratings**. Consistency
+  alone explained a major part of **23%** of the problems in a greedy coverage
+  analysis. These are retrospective judgments, not improvements in user
+  performance or rates of detecting new problems.
+- **Research synthesis:** a **209-guideline** collection rated standardizing task
+  sequences **4/5 for importance/evidence** and consistent placement of important
+  items **5/4**. Its support includes location-learning and search research;
+  cited comparisons favor static over automatically reordering menus. These
+  ratings are contextual expert assessments, not pooled effects or proof that
+  user-controlled adaptation is harmful.
+- **Expected ease of use:** three studies with **104, 81, and 108 engineering
+  students**, judging **26 layouts** without operating them, found different
+  keypad preferences from an earlier population. This cautions against treating
+  one familiar arrangement as inherently superior; cultural learning is a
+  plausible explanation, not an isolated causal finding.
+- **Rapid aesthetic judgment:** masked screenshot studies with **59 and 82
+  participants** found that category-prototypical company homepages were rated
+  more beautiful, especially with low visual complexity, even without familiarity
+  with the particular website. They did not test navigation or sustained use.
+- **Action recognition:** in a **71-user, nine-page** signifier experiment, three
+  page pairs had nearly identical gaze patterns despite reduced decorative
+  cues. Conventional placement, separation, or retained color distinction
+  accompanied these cases. Their independent contributions were not isolated.
+
+Conceptual and practitioner accounts recommend protecting habitual action
+meanings more strongly than ornamental sameness. They supply useful diagnostic
+models, not controlled estimates of the cost of every departure.
+
+## Practical Use
+
+- Inventory learned actions and expected consequences before a redesign; protect
+  these more carefully than incidental styling.
+- Keep repeated task sequences, names, and locations predictable where they help
+  people reuse knowledge.
+- Make changed behavior perceptibly different rather than retaining a familiar
+  cue for an unfamiliar consequence.
+- Establish familiarity with the actual audience and evaluate justified departures
+  through task success, errors, learning, and experienced efficiency.
+- Assess category recognizability separately from usefulness; an appealing first
+  impression is not a performance certificate. See
+  [visual complexity and prototypicality](/vault/visual-complexity-and-prototypicality.md).
+
+## Limitations
+
+Conventions differ across communities, input methods, and time. The cited studies
+are historically bounded, and the layout and screenshot findings concern
+expectations or appeal rather than successful operation. The heuristic analysis
+has one rater and no prospective detection test; the guidance synthesis often
+omits original samples and uncertainty. No source establishes consistency as an
+overriding rule: task requirements or clearer communication can justify a
+noticeable departure. Innovation carries a relearning question, not an automatic
+prohibition.
+
+## Sources
+
+- [Aesthetics and Apparent Usability: Empirically Assessing Cultural and Methodological Issues](/dossiers/aesthetics-and-apparent-usability.md) — Provides three pre-use ATM-layout studies and the culturally bounded keypad-preference comparison.
+- [Affordance, Conventions, and Design](/dossiers/affordance-conventions-and-design.md) — Separates learned cultural constraints from physical possibility and calls for observing whether conventions are shared.
+- [Enhancing the Explanatory Power of Usability Heuristics](/dossiers/enhancing-explanatory-power-usability-heuristics.md) — Supplies retrospective consistency-factor and coverage results, with single-rater limitations.
+- [First Principles of Interaction Design (Revised & Expanded)](/dossiers/first-principles-of-interaction-design.md) — Prioritizes habitual action meanings and expected consequences over uniform appearance.
+- [Flat UI Elements Attract Less Attention and Cause Uncertainty](/dossiers/flat-ui-elements-attract-less-attention.md) — Shows bounded cases where conventional placement and retained distinctions accompanied preserved recognition.
+- [Research-Based Web Design & Usability Guidelines](/dossiers/research-based-web-design-usability-guidelines.md) — Synthesizes evidence for repeatable sequences and learned locations while separating performance from preference.
+- [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Establishes category-prototype effects on brief aesthetic judgments without requiring brand familiarity.
