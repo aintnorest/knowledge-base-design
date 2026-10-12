@@ -7,4 +7,5 @@ repos:
         # mise exec resolves the pinned version even when mise is not activated in the shell.
         entry: mise exec -- markdownlint-cli2
         language: system
-        types: [markdown]
+        # Scope must match the lint tasks in mise.toml.
+        files: ^(dossiers|vault|docs)/.+\.md$

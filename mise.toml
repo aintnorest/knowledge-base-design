@@ -8,10 +8,11 @@ node = "24.21.0"
 "npm:markdownlint-cli2" = { version = "0.23.3", depends = ["node"] }
 prek = "0.5.5"
 
+# Scope must match `files` in .pre-commit-config.yaml.
 [tasks.lint]
-description = "Lint every note with markdownlint"
-run = "markdownlint-cli2 '**/*.md'"
+description = "Lint dossiers, vault pages, and docs with markdownlint"
+run = "markdownlint-cli2 'dossiers/**/*.md' 'vault/**/*.md' 'docs/**/*.md'"
 
 [tasks."lint:fix"]
-description = "Apply markdownlint's automatic fixes"
-run = "markdownlint-cli2 --fix '**/*.md'"
+description = "Apply markdownlint's automatic fixes to dossiers, vault pages, and docs"
+run = "markdownlint-cli2 --fix 'dossiers/**/*.md' 'vault/**/*.md' 'docs/**/*.md'"

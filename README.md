@@ -160,9 +160,9 @@ scheme), or `sha256:…` when no stronger identifier exists.
 [mise](https://mise.jdx.dev) pins Node,
 [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2), and
 [prek](https://github.com/j178/prek); lint rules live in
-`.markdownlint-cli2.jsonc`. Raw files in `archive/` and `inbox/` are not
-linted. The prek pre-commit hook lints staged notes and blocks the commit on
-any issue.
+`.markdownlint-cli2.jsonc`. Linting covers `dossiers/`, `vault/`, and `docs/`.
+The prek pre-commit hook lints staged files in those folders and blocks the
+commit on any issue.
 
 ```bash
 mise install          # install the pinned tools
