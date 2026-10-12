@@ -5,8 +5,8 @@ knowledge base.
 
 ## Repository Model
 
-- `inbox/` is the transient drop zone for source files. Its contents are not
-  tracked by Git.
+- `inbox/` is the transient drop zone for source files. Its contents are
+  tracked by Git until ingest moves them out.
 - `archive/` stores immutable raw source files when a local copy is available
   and its license permits redistribution.
 - `archive/private/` stores immutable raw source files that may not be

@@ -53,7 +53,7 @@ knowledge-base-design/
 ├── docs/
 │   ├── INGEST.md          ← agent procedure for ingesting one source
 │   └── TAXONOMY.md        ← controlled tag vocabulary
-├── inbox/                 ← drop zone: put PDFs/files here to ingest (contents untracked)
+├── inbox/                 ← drop zone: put PDFs/files here to ingest
 ├── archive/               ← immutable raw material, written once, never edited
 │   ├── index.md           ← archive manifest
 │   └── private/           ← local-only copies that may not be redistributed (untracked)
@@ -80,8 +80,9 @@ directly without an archived copy.
 
 This repository is public. A source is committed to `archive/` only when its
 license permits redistribution; otherwise the local copy goes to the untracked
-`archive/private/` and the dossier cites the canonical URL. Files waiting in
-`inbox/` are never committed.
+`archive/private/` and the dossier cites the canonical URL. `inbox/` is tracked:
+a file waiting there is committed with everything else until ingest moves it
+out.
 
 ### 2. Read the Dossier
 

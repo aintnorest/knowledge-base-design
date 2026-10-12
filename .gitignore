@@ -12,9 +12,5 @@
 # Obsidian vault settings (local only)
 .obsidian/
 
-# Sources awaiting ingest; license not yet checked
-inbox/*
-!inbox/README.md
-
 # Archived sources whose licenses do not permit redistribution
 archive/private/
