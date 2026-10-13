@@ -111,3 +111,5 @@ Later corroboration is reported in [Molich's 2018 CUE retrospective](https://doi
 ## Vault Ideas Extracted
 
 - [Evaluator Effect](/vault/evaluator-effect.md) — Defines pairwise overlap, distinguishes reliability from coverage and validity, and supports independent multiple-evaluator analysis across inspection and user-testing methods.
+- [Heuristic Evaluation](/vault/heuristic-evaluation.md) — Supplies individual detection and any-two agreement from the reviewed heuristic-evaluation studies, including the Nielsen and Molich data, and shows that specialist experience raised detection more clearly than convergence.
+- [Cognitive Walkthrough](/vault/cognitive-walkthrough.md) — Supplies walkthrough detection and agreement from four studies and identifies task selection, anchoring on the evaluator's own experience, and procedural fatigue as walkthrough-specific sources of variability.

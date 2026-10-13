@@ -2,8 +2,8 @@
 type: Synthesis
 title: Recognition over Recall
 description: Keeping relevant actions and task context perceivable reduces dependence on remembering information that is no longer available.
-tags: [cognitive-load, interaction-design, digital-interfaces]
-timestamp: 2026-10-11T23:59:46Z
+tags: [cognitive-load, interaction-design, cognitive-accessibility, accessibility, digital-interfaces]
+timestamp: 2026-10-12T20:43:32Z
 ---
 
 # Recognition over Recall
@@ -26,12 +26,23 @@ Those percentages describe a combination of principles applied by **one rater**,
 
 The working-memory review supplies convergent laboratory examples, but not their sample sizes or pooled effect sizes. It does not directly test an interface that replaces recall with recognition.
 
+Supplemental cognitive-accessibility guidance recommends persistent labels,
+prior-step information, visible task position, and feedback that lets people
+resume after distraction. It also argues against unaided memorization,
+transcription, calculation, and puzzle solving as prerequisites for authentication
+or help. These recommendations rest on **task-force consensus and cited research**,
+not measured treatment effects; the **ten fictional personas** illustrate barriers
+rather than supplying a participant sample.
+
 ## Practical Use
 
 - Expose relevant actions and alternatives through perceivable structures rather than relying on remembered commands or undisclosed possibilities.
 - Keep needed context available when moving between steps; identify what a person would otherwise have to remember.
 - For comparison tasks, consider [juxtaposability](/vault/juxtaposability-for-comparison.md) rather than making people remember values from successive views.
 - Evaluate recognition of options separately from comprehension of system feedback.
+- Test whether externalized information is understood and supports independent
+  action by people with memory, language, and attention difficulties. See
+  [cognitive accessibility user needs](/vault/cognitive-accessibility-user-needs.md).
 
 ## Limitations
 
@@ -39,7 +50,14 @@ Availability is not the same as comprehension: visible alternatives still need m
 
 The heuristic evidence is historically bounded and subject to hindsight and single-rater effects. Neither it nor the memory review supplies a universal performance gain or proof that recognition eliminates memory work.
 
+The cognitive guidance's illustrative impaired-memory ranges vary between
+**1–3**, **1–4**, and **1–2 items**, without measurement conditions. They do not
+establish a visible-option maximum. Personalized support must retain meaning and
+work with the person's existing assistance; recognition is not a justification
+for weakening authentication indiscriminately.
+
 ## Sources
 
 - [Enhancing the Explanatory Power of Usability Heuristics](/dossiers/enhancing-explanatory-power-usability-heuristics.md) — Retrospective explanatory coverage for seeing/pointing and salient actions, with recognition distinguished from status feedback.
 - [The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?](/dossiers/magical-mystery-four-working-memory-capacity.md) — Conditional central-storage limits and the explicitly inferred rationale for keeping needed context externally available.
+- [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Extends point-of-use context to persistent labels, prior steps, reorientation after distraction, and authentication support through research-informed consensus guidance rather than quantified treatment effects.

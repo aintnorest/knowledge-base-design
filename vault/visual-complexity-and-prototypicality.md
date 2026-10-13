@@ -1,9 +1,9 @@
 ---
 type: Synthesis
 title: Visual Complexity and Prototypicality
-description: Website first-impression appeal depends jointly on perceived complexity and learned category typicality, with substantial observer and measurement limits.
+description: Website first-impression appeal depends on perceived complexity and learned category typicality, but very sparse pages need not fare best and audience differences do not provide reliable demographic design rules.
 tags: [aesthetics, visual-perception, layout, digital-interfaces, user-research]
-timestamp: 2026-10-11T23:59:42Z
+timestamp: 2026-10-12T20:43:29Z
 ---
 
 # Visual Complexity and Prototypicality
@@ -26,20 +26,32 @@ A separate three-study program used a **450-image pool** and **548 volunteers** 
 
 That second program broadens the complexity evidence but does **not** measure or replicate the prototypicality factor. Its R² values describe fit to observed data, not validated performance on new sites or people.
 
+## Audience Variation and the Sparse-Page Boundary
+
+A larger international extension collected approximately **2.4 million ratings from 39,975 volunteers**. The cleaned analysis used **32,222 people**, **771,083 paired ratings**, and **430 screenshots**, viewed for **500 ms**. These are distinct collection and analysis denominators. The study reused calibrated estimates of perceived complexity rather than asking this sample to rate complexity directly.
+
+The aggregate appeal curve peaked at **4.2/10** on that modeled complexity scale; both very sparse and highly complex pages fared worse. This is a dataset-dependent score, not a transferable content-density specification. The prose's peak-versus-low/high effects (**d=.6/2.0**) disagree with Figure 1 (**d=.4/1.4**), so the directional boundary is more secure than a single effect-size claim.
+
+Complexity preferences differed with age, gender, country, and education, without determining individual taste. In contrast to the earlier over-45 finding, older groups preferred greater complexity in this extension: ages **12–40** had estimated peaks of **4.1–4.2**, and those **over 50** peaked at **4.7**. Sample heterogeneity and education were proposed explanations, not isolated causes. Very sparse pages also elicited differing tolerance across groups; the findings do not justify “older users always want simpler pages.”
+
+The full model's **conditional R²=.47** includes participant and site random effects, whereas **marginal R²=.07** describes the fixed predictors alone. Complexity, colorfulness, and demographics therefore do not explain **47%** by themselves. Neither statistic establishes held-out accuracy or the benefit of demographic personalization, and they are not directly comparable to the earlier **adjusted R²=.48**. This extension did **not measure prototypicality** or independently replicate the masked joint-factor experiments.
+
 ## Practical Use
 
 - Evaluate simplicity against the audience's category expectations rather than maximizing emptiness.
 - Measure perceived complexity with people before treating a feature count as its substitute.
 - Use early appeal as one outcome alongside actual task performance; it is not evidence of navigation success or durable satisfaction.
 - Treat audience differences as research hypotheses, not demographic design stereotypes.
+- Recruit across relevant audience differences and test very sparse as well as dense alternatives; do not choose an individual's complexity preference from age or nationality.
 
 ## Limitations
 
 The experiments use static desktop screenshots, not responsive interaction, motion, or long-term exposure. Real websites were selected rather than changed one property at a time, leaving underlying visual factors entangled. The company-homepage samples and relatively experienced observers limit category and population transfer; prototypes can change.
 
-The predictive work uses purposive stimuli, self-selected volunteers, model selection, and exclusions for inconsistent repeated ratings. No held-out site or participant evaluation is reported. Neither program establishes downstream trust, abandonment, or the [aesthetic–usability effect](/vault/aesthetic-usability-effect.md).
+The predictive work uses purposive stimuli, self-selected volunteers, model selection, and exclusions for inconsistent repeated ratings. No held-out site or participant evaluation is reported. The international extension adds English-language instructions, unbalanced country representation, and exclusion of mixed-nationality or migration backgrounds from country comparisons. These conditions limit demographic transfer, and observational differences do not establish cultural causes. None of the programs establishes downstream trust, abandonment, personalization benefits, or the [aesthetic–usability effect](/vault/aesthetic-usability-effect.md).
 
 ## Sources
 
 - [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Supplies masked company-homepage evidence for the interaction, brief-exposure effects, and category and population boundaries.
 - [Predicting Users’ First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness](/dossiers/predicting-website-aesthetics-first-impressions.md) — Adds calibrated complexity measures, broader complexity–appeal associations, observer differences, and limits of in-sample prediction; does not measure prototypicality.
+- [Quantifying Visual Preferences Around the World](/dossiers/quantifying-visual-preferences-around-the-world.md) — Adds international audience variation, the sparse-page boundary, an opposing older-user preference pattern, and conditional-versus-marginal fit limits; does not measure prototypicality.

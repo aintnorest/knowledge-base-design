@@ -3,7 +3,7 @@ type: Synthesis
 title: Consistency and Convention
 description: Stable meanings, learned action consequences, and shared conventions let people reuse knowledge, but familiarity is audience-specific and does not require uniform appearance.
 tags: [interaction-design, cognitive-load, digital-interfaces, usability-evaluation]
-timestamp: 2026-10-12T00:00:02Z
+timestamp: 2026-10-12T20:43:32Z
 ---
 
 # Consistency and Convention
@@ -61,6 +61,12 @@ The sources support different outcomes rather than one universal effect size:
   page pairs had nearly identical gaze patterns despite reduced decorative
   cues. Conventional placement, separation, or retained color distinction
   accompanied these cases. Their independent contributions were not isolated.
+- **Cognitive access:** supplemental guidance recommends familiar layouts, stable
+  labels, and predictable routes so changes do not repeatedly demand new learning.
+  It also recommends retaining user-selected symbol vocabularies and support:
+  familiarity is individual and cultural, not a universal property of an icon.
+  This is **task-force consensus with cited research**, supported by functional
+  rationale and fictional scenarios rather than measured treatment effects.
 
 Conceptual and practitioner accounts recommend protecting habitual action
 meanings more strongly than ornamental sameness. They supply useful diagnostic
@@ -79,6 +85,10 @@ models, not controlled estimates of the cost of every departure.
 - Assess category recognizability separately from usefulness; an appealing first
   impression is not a performance certificate. See
   [visual complexity and prototypicality](/vault/visual-complexity-and-prototypicality.md).
+- Preserve understandable, user-controlled adaptation when it helps someone keep
+  familiar meanings. Test that personalization retains content, critical paths,
+  and a clear route back; see
+  [cognitive accessibility user needs](/vault/cognitive-accessibility-user-needs.md).
 
 ## Limitations
 
@@ -100,3 +110,4 @@ prohibition.
 - [Flat UI Elements Attract Less Attention and Cause Uncertainty](/dossiers/flat-ui-elements-attract-less-attention.md) — Shows bounded cases where conventional placement and retained distinctions accompanied preserved recognition.
 - [Research-Based Web Design & Usability Guidelines](/dossiers/research-based-web-design-usability-guidelines.md) — Synthesizes evidence for repeatable sequences and learned locations while separating performance from preference.
 - [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Establishes category-prototype effects on brief aesthetic judgments without requiring brand familiarity.
+- [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Connects stable meanings, familiar layouts, and predictable routes to cognitive access while qualifying conventions through culture, personal symbols, and controllable adaptation.

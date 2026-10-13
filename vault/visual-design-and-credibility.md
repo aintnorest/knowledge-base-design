@@ -1,9 +1,9 @@
 ---
 type: Synthesis
 title: Visual Design and Credibility
-description: Visual presentation can become a prominent credibility signal, but its influence depends on what observers notice and how they interpret it rather than on polish alone.
+description: Visual and social presentation can influence perceived credibility or automation reliance without improving truth or capability, so design should support warranted assessment rather than maximize trust.
 tags: [trust, aesthetics, digital-interfaces, visual-hierarchy, user-research]
-timestamp: 2026-10-11T23:59:42Z
+timestamp: 2026-10-13T00:04:27Z
 ---
 
 # Visual Design and Credibility
@@ -31,12 +31,32 @@ Category-specific comments also differed: information bias appeared in **30.2%**
 
 The study identifies reported reasons in a judgment task. It neither independently manipulates visual design nor estimates the credibility improvement from a redesign. Comments mix noticing with interpretation and cannot reveal the entire judgment process.
 
+An integrative automation-trust review adds that realistic imagery, reputation,
+and social cues can alter trust or reliance independently of actual capability.
+It cites a separate website-credibility survey of **more than 1,400 people** in
+which organizational photos and physical addresses contributed to a “real-world
+feel.” This is cited survey evidence, not an experiment demonstrating that those
+features make claims true or improve appropriate reliance.
+
+The review distinguishes trust as an attitude from reliance as behavior, with
+workload, alternatives, and engagement costs intervening. Its recommendation to
+evaluate calibration and anthropomorphic presentation is **tentative guidance
+from a narrative synthesis**, not a validated redesign package. Polished or
+humanlike cues can therefore be persuasive without supplying discriminative
+evidence about the current task.
+
 ## Practical Use
 
 - Make warranted trust assessable: relevant evidence, authorship, affiliations, and accountability must be findable and interpretable.
 - Use visual hierarchy to support inspection of substantive information rather than substitute polish for evidence.
 - Match credibility cues to the person's task and stakes; not everything can be prominent simultaneously.
 - Evaluate what people notice and what they infer separately, then compare perceived trust with justified trust.
+- For automated assistance, compare appearance-based expectations with actual
+  function- and context-specific capability; see
+  [appropriate reliance on automation](/vault/appropriate-reliance-on-automation.md).
+  Measure reliance behavior separately from reported trust.
+- Evaluate realistic imagery and social cues for the inferences they invite,
+  rather than treating humanlike presentation as evidence of competence or intent.
 
 Like the [aesthetic–usability effect](/vault/aesthetic-usability-effect.md), this principle concerns appearance-based judgment without certifying underlying quality. Neither finding licenses treating appeal as a substitute for evidence.
 
@@ -46,6 +66,13 @@ The study reflects **2002** websites and a nonrepresentative, largely US recruit
 
 Retrospective comments can omit observations or rationalize judgments. Coding reliability and denominators are insufficiently specified to reconstruct uncertainty. The exact historical rates are not current benchmarks, causal weights, or a universal credibility checklist.
 
+The automation review spans heterogeneous studies without a pooled visual-cue
+effect or complete study-level statistics. Its interpersonal and affective
+accounts do not establish that machines have human motives. Neither source shows
+that all polish is misleading or that removing it improves accuracy: the boundary
+is between influencing a judgment and providing warranted evidence for it.
+
 ## Sources
 
 - [How Do Users Evaluate the Credibility of Web Sites? A Study with Over 2,500 Participants](/dossiers/how-users-evaluate-web-credibility.md) — Supplies the live-site comment analysis, broad visual-design mention rate, domain variation, and Prominence–Interpretation distinction with causal and sampling cautions.
+- [Trust in Automation: Designing for Appropriate Reliance](/dossiers/trust-in-automation-appropriate-reliance.md) — Adds reviewed evidence on realistic and social presentation, distinguishes trust from reliance, and recommends calibrated rather than maximal trust without establishing a causal visual-design effect.

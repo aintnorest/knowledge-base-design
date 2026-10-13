@@ -3,7 +3,7 @@ type: Synthesis
 title: Error Prevention and Recovery
 description: Prevent foreseeable mistakes and make unavoidable failures identifiable, correctable, and recoverable without discarding the user's work or task context.
 tags: [interaction-design, forms, accessibility, cognitive-accessibility, digital-interfaces]
-timestamp: 2026-10-12T00:00:49Z
+timestamp: 2026-10-13T00:04:35Z
 ---
 
 # Error Prevention and Recovery
@@ -13,6 +13,11 @@ mistakes before commitment, explains failures when they occur, and preserves a
 route back to useful work. Prevention and recovery are complementary: avoiding a
 mistake, escaping an unwanted state, correcting an entry, and reversing a completed
 action solve different problems.
+
+When the system infers intent, failure also includes assistance that was never
+requested, useful help that was not offered, and an editable result based on a
+poor guess. Recovering from these failures requires control over the service as
+well as correction of its output.
 
 ## How It Works
 
@@ -70,6 +75,32 @@ and immediately communicating expected recovery delay, but reports **no original
 controlled experiment**. Neither source establishes a universal numerical payoff
 for undo or retained state.
 
+Supplemental cognitive-accessibility guidance makes **independent recovery** the
+boundary: nominal undo is insufficient when finding or following the correction
+path is itself too difficult. Repeated entry can create a fatigue–error–re-entry
+cycle. It recommends accepting equivalent input formats, preserving valid work
+and original task position, avoiding unnecessary time limits, and giving
+instructions before failure. A last-minute extension warning may expire before
+someone can understand or act on it. These are **research-informed task-force
+recommendations**, not measured effects from a treatment experiment; their persona
+scenarios are fictional.
+
+Human–AI guidance separates efficient **invocation, dismissal, correction, and
+uncertainty scoping**. Granular feedback about one result differs from global
+control of future behavior, and communicating the consequences of each prevents
+ambiguous repair. Its **18 guidelines** were refined through practitioner
+inspection and expert wording judgments, including **49 practitioners evaluating
+20 products**. This supports inspectability, not a measured reduction in failures
+or recovery effort.
+
+A mixed-initiative design account recommends direct invocation for missed
+assistance, rejection or termination for unwanted assistance, and editable guesses
+for imperfect results. Its scheduling prototype illustrates reducing precision
+under uncertainty rather than fabricating an exact answer. These are **design
+arguments and prototype demonstrations**, not experimentally established treatment
+benefits. Cheap cancellation lowers a bad guess's cost but does not make the guess
+correct or make every consequence reversible.
+
 ## Practical Use
 
 - Review both the chance of a mistake and the burden of recovering from it,
@@ -83,6 +114,15 @@ for undo or retained state.
 - Pair preserved context with truthful
   [system-status feedback](/vault/visibility-of-system-status.md). A progress
   indication does not compensate for lost work.
+- Test the complete correction path, including finding help and resuming after a
+  break, rather than checking only that reversal exists. See
+  [cognitive accessibility user needs](/vault/cognitive-accessibility-user-needs.md).
+- For inferred assistance, test missed invocation, unwanted intervention, and
+  incorrect results separately. Keep dismissal, termination, and editing distinct;
+  see [mixed-initiative interaction](/vault/mixed-initiative-interaction.md).
+- Make local correction and feedback distinguishable from global settings. Scope
+  uncertain help to an inspectable approximation rather than committing a precise
+  guess the person cannot readily repair.
 
 ## Limitations
 
@@ -95,6 +135,17 @@ already-known problems, and the practitioner and historical arguments do not
 supply controlled effect estimates. Recovery speed and safeguards therefore need
 judgment about the actual task and consequences, not universal cutoffs.
 
+Privacy and security can limit retained work. Correct automatically only when the
+intended input can be interpreted reliably; silently changing meaning can create
+a new failure. Supplemental cognitive guidance goes beyond conformance and does
+not establish a universal warning duration or certify independent recovery.
+
+AI guideline inspectability does not establish independent recovery, harm
+reduction, or ethical completeness. Prototype examples do not validate precise
+confidence cutoffs, and confidence that help is wanted is not confidence that its
+output is right. Cancellation after action cannot guarantee restoration of
+external consequences.
+
 ## Sources
 
 - [Affordance, Conventions, and Design](/dossiers/affordance-conventions-and-design.md) — Distinguishes enforced physical prevention from ignorable logical and cultural guidance.
@@ -102,3 +153,6 @@ judgment about the actual task and consequences, not universal cutoffs.
 - [First Principles of Interaction Design (Revised & Expanded)](/dossiers/first-principles-of-interaction-design.md) — Argues for reversibility, intelligible error messages, and preserving accumulated work, while exposing the limits of uncited supporting studies.
 - [Response Time in Man-Computer Conversational Transactions](/dossiers/response-time-man-computer-conversational-transactions.md) — Recommends retaining inquiry and creative context after failures and communicating recovery delay as task-specific guidance.
 - [Understanding WCAG 2.2](/dossiers/understanding-wcag-2-2.md) — Explains identification, correction, consequential-submission safeguards, and work preservation in terms of unequal accessibility costs.
+- [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Explains independent recovery, repeated-entry fatigue, preserved task position, and why nominal undo or last-minute timeout warnings can remain inaccessible, without quantified treatment effects.
+- [Guidelines for Human-AI Interaction](/dossiers/guidelines-for-human-ai-interaction.md) — Separates invocation, dismissal, correction, uncertainty scoping, granular feedback, and global controls through iteratively inspected guidance, without measured recovery benefits.
+- [Principles of Mixed-Initiative User Interfaces](/dossiers/principles-of-mixed-initiative-user-interfaces.md) — Illustrates direct invocation, termination, rejection, editable guesses, and reduced precision as responses to distinct inferred-assistance failures, without a controlled comparison.

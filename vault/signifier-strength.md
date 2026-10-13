@@ -3,7 +3,7 @@ type: Synthesis
 title: Signifier Strength
 description: Perceivable cues help people recognize meaningful actions and expected outcomes, but cue strength must be distinguished from real affordance, perceived affordance, and learned convention.
 tags: [interaction-design, attention, cognitive-load, digital-interfaces]
-timestamp: 2026-10-12T00:02:01Z
+timestamp: 2026-10-12T20:43:27Z
 ---
 
 # Signifier Strength
@@ -42,6 +42,24 @@ missing behavior, guarantee correct interpretation, or enforce a constraint.
 [Consistency and convention](/vault/consistency-and-convention.md) explain why
 familiar cues work only when learned meanings and consequences remain reliable.
 
+## Availability Is Not Goal Relevance
+
+The [gulfs of execution and evaluation](/vault/gulfs-of-execution-and-evaluation.md)
+distinguish **articulatory distance**, between form and meaning, from **semantic
+distance**, between meaning and goals. A cue can clearly communicate an operation
+that still expresses the user's intention poorly. Repeatedly recognizable local
+actions may be a laborious substitute for one appropriate task-level operation.
+
+A [cognitive walkthrough](/vault/cognitive-walkthrough.md) further distinguishes
+having a reason to seek an effect, noticing the correct action, and associating
+that action with the effect. The person may never form a system-required
+prerequisite goal, or may follow a plausible competing label. Stronger visual
+treatment cannot by itself repair either failure.
+
+Recognizing an action also differs from understanding the response:
+[visibility of system status](/vault/visibility-of-system-status.md) concerns
+whether the resulting state makes progress interpretable in task terms.
+
 ## Evidence
 
 A controlled desktop eye-tracking experiment involved **71 general web users**
@@ -75,6 +93,12 @@ Practitioner guidance recommends perceivable access to necessary controls and
 explicit gesture instruction; its examples provide **no controlled learning
 comparison or participant counts** for those recommendations.
 
+The direct-manipulation account supplies **conceptual theory with no participant
+study** for the meaning-versus-form distinction. The walkthrough guide supplies
+a theory-based analysis of exploratory learning, not a new signifier experiment;
+its simplified **third version had no empirical validation** in that report.
+These accounts broaden diagnosis without providing additional cue effect sizes.
+
 ## Practical Use
 
 - Diagnose the missing layer: unavailable action, unnoticed cue, mistaken role,
@@ -89,6 +113,9 @@ comparison or participant counts** for those recommendations.
   teach unfamiliar gestures rather than assuming hidden operation is obvious.
 - Evaluate recognition alongside [recognition over recall](/vault/recognition-over-recall.md),
   but distinguish locating a specified action from discovering an unknown one.
+- Test whether the action expresses the user's actual goal, not only whether its
+  label or appearance is recognizable. Remove unnecessary prerequisites rather
+  than relying on stronger cues to explain them.
 
 ## Limitations
 
@@ -107,3 +134,5 @@ familiarity alone guarantee usable behavior or accessibility.
 - [Affordance, Conventions, and Design](/dossiers/affordance-conventions-and-design.md) — Separates real action possibilities, perceived possibilities, and learned symbolic communication while preserving the essay's terminology tension.
 - [First Principles of Interaction Design (Revised & Expanded)](/dossiers/first-principles-of-interaction-design.md) — Recommends perceivable access and explicit gesture cues, distinguishing task simplicity from visual emptiness without controlled learning estimates.
 - [Flat UI Elements Attract Less Attention and Cause Uncertainty](/dossiers/flat-ui-elements-attract-less-attention.md) — Supplies the 71-user findability experiment, heading-versus-link misrecognition, and the limits of bundled cue manipulations.
+- [Direct Manipulation Interfaces](/dossiers/direct-manipulation-interfaces.md) — Distinguishes form-to-meaning correspondence from task-level fit, explaining why recognizable action cues cannot supply missing semantic operations.
+- [The Cognitive Walkthrough Method: A Practitioner's Guide](/dossiers/cognitive-walkthrough-practitioners-guide.md) — Separates forming a relevant goal, noticing an action, and understanding its effect through exploratory-learning theory rather than a new cue experiment.

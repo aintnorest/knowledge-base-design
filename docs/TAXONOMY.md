@@ -68,7 +68,7 @@ tags.
 | `content-design` | Words in the interface: UX writing, microcopy, labels, plain language, voice and tone in product. |
 | `mobile` | Touch and small-screen design: reach, gestures, target size, interrupted and on-the-go use. |
 | `conversational-interfaces` | Voice and chat interaction: turn-taking, error repair, prompts and suggestions, persona. |
-| `ai-interfaces` | Designing AI-powered features from the user's side: setting expectations, explaining output and uncertainty, correction and control, trust calibration, generative UI. How the models work belongs in the intelligent-systems knowledge base. |
+| `delegation` | Handing work to a system that acts on its own and staying responsible for it: what it may do unasked, when it should ask or wait, keeping the person informed, checking and correcting its output, calibrating trust, and taking back control when it fails. Applies whether the system is an AI agent, an assistant feature, or conventional automation. How the models or controllers work belongs in the intelligent-systems knowledge base. |
 
 ## Accessibility & Inclusion
 
@@ -149,7 +149,7 @@ column.
 | `ux-writing`, `microcopy` | `content-design` |
 | `animation` | `motion` |
 | `voice-ui`, `chatbots` | `conversational-interfaces` |
-| `human-ai-interaction`, `genai-ux` | `ai-interfaces` |
+| `ai-interfaces`, `human-ai-interaction`, `genai-ux`, `automation`, `human-automation-interaction`, `supervisory-control` | `delegation` |
 | `usability-testing`, `heuristic-evaluation` | `usability-evaluation` |
 | `ab-testing` | `experimentation` |
 | `component-library`, `design-tokens` | `design-systems` |

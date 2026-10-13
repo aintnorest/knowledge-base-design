@@ -3,7 +3,7 @@ type: Synthesis
 title: Text Alternatives
 description: Electronic text preserves the purpose and information of non-text content across sensory presentations, with the alternative shaped by function rather than appearance alone.
 tags: [assistive-technology, accessibility, accessibility-standards, digital-interfaces, content-design]
-timestamp: 2026-10-12T00:01:24Z
+timestamp: 2026-10-12T20:43:32Z
 ---
 
 # Text Alternatives
@@ -23,11 +23,30 @@ For serial presentation, meaningful relationships and reading order also matter.
 
 ## Evidence and Qualifications
 
-The cited source is informative accessibility commentary, not an experiment estimating an effect size for text alternatives. Its rationale is that electronic text can move information between presentation modalities, including tactile access for deaf-blind users. It provides examples and functional requirements, but no participant sample or quantified task-success gain establishing one optimal alternative format.
+The accessibility commentary is informative guidance, not an experiment estimating an effect size for text alternatives. Its rationale is that electronic text can move information between presentation modalities, including tactile access for deaf-blind users. It provides examples and functional requirements, but no participant sample or quantified task-success gain establishing one optimal alternative format.
 
 The sensory-experience qualification is not a general exemption for meaningful images. The raw explanation identifies works of visual art and musical performances as examples whose experience words cannot fully capture; descriptive identification still applies. Likewise, where presenting a test in text would invalidate it, the criterion calls for descriptive identification rather than an equivalent that gives away the test.
 
 Time-based media have additional requirements. Captions include meaningful sounds and speaker identity; audio description supplies important visual action; full textual media alternatives can support deaf-blind access. A descriptive media label is not a substitute for those obligations. Text is also not automatically equivalent to sign language.
+
+## Presence Is Not Quality
+
+A **February 2026** automated assessment of **1,000,000 popular home pages** found
+missing image alternatives on **53.1% of pages**. Across more than **66.6 million
+images**, **16.2%** lacked alternatives; empty alternatives were not counted as
+missing. **45%** of missing alternatives occurred on linked images, where the
+omission could also leave the link's purpose undescribed.
+
+Among **images that had alternatives**, **10.8%** had questionable or repetitive
+wording, such as generic words, filenames, or duplicates of nearby content. That
+denominator differs from all images, and these flags were not all individually
+adjudicated failures. Presence therefore does not establish meaningful
+equivalence; an intentional empty alternative for decoration is also not
+automatically an omission.
+
+These are **first-party observational findings, not peer-reviewed evidence or a
+threshold-validation experiment**. They identify recurring detectable omissions,
+not user-task failure rates or the causal benefit of a particular wording.
 
 ## Practical Use
 
@@ -36,11 +55,20 @@ Time-based media have additional requirements. Captions include meaningful sound
 - Give complex information enough explanatory depth, and preserve relationships and reading sequence when presentation becomes serial.
 - Avoid decorative noise that adds navigation effort without information.
 - Evaluate the alternative in its actual assistive-technology and language context, not merely its presence. [Visual contrast](/vault/color-contrast-minimum.md) and text alternatives protect different access channels.
+- Pair missing-alternative detection with contextual judgment of purpose and
+  equivalence. A clean scan leaves quality and complete journeys unverified; see
+  [automated accessibility testing limits](/vault/automated-accessibility-testing-limits.md).
 
 ## Limitations
 
 Some sensory experiences cannot be fully reproduced in text. Assistive-technology support also varies by environment, version, affordability, and language; exposed semantics and usable meaning can diverge. The source admits that all CAPTCHA types exclude some disabled users even when alternatives use different sensory modalities. Standards exceptions negotiate conformance boundaries rather than proving inclusion. Text alternatives must therefore be assessed alongside media requirements, semantic relationships, and complete-process usability with disabled users.
 
+The prevalence figures describe the **2026 edition's popular home-page sample**,
+not all websites or every state of those sites. Automated detection finds only
+some barriers, so observed omissions are lower-bound evidence of failures within
+that scope, not proof that the remaining images or pages are accessible.
+
 ## Sources
 
 - [Understanding WCAG 2.2](/dossiers/understanding-wcag-2-2.md) — Explains purpose-preserving text, decorative handling, media distinctions, and access across speech, braille, and visual adaptation; its underlying non-text-content explanation clarifies sensory and test qualifications.
+- [The WebAIM Million — The 2026 report on the accessibility of the top 1,000,000 home pages](/dossiers/webaim-million-2026.md) — Adds dated observational prevalence of missing image alternatives and questionable supplied alternatives, with distinct denominators, non-adjudicated quality flags, and partial automated coverage.

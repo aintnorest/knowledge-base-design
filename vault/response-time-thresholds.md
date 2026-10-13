@@ -3,7 +3,7 @@ type: Synthesis
 title: Response-Time Thresholds
 description: Acceptable delay depends on the response function and the user's unfinished task, while familiar numerical thresholds are guidance rather than universal experimentally established limits.
 tags: [human-performance, interaction-design, cognitive-load, attention, digital-interfaces]
-timestamp: 2026-10-12T00:00:32Z
+timestamp: 2026-10-12T20:43:22Z
 ---
 
 # Response-Time Thresholds
@@ -34,6 +34,23 @@ Miller explicitly calls his estimates calculated guesses, “indicative rather t
 
 Practitioner guidance separately prescribes escalating wait feedback: a busy indication at **0.5–2 seconds**, a possible duration beyond **2 seconds**, animated progress beyond **5 seconds**, continued information and occupation beyond **10 seconds**, and strong completion cues beyond **15 seconds**. Its prose recommends acknowledging input within **50 milliseconds**. These exact boundaries also lack a supporting latency experiment in the source.
 
+## Empirical Boundary-Timing Evidence
+
+A separate **50-person** experiment delivered the same secondary work either
+midway through primary tasks or after their completion. Within the mid-task group,
+interrupted trials required **3–27%** more primary-work time across categories,
+excluding secondary-work duration. The **overall between-group timing effect on
+primary time was not significant**; boundary-delivered work had no significant
+primary-time effect within the control group.
+
+Mid-task delivery also produced higher group-level errors, annoyance, and anxiety.
+This supports considering the location of deferrable work relative to completion,
+not a universal latency cutoff. The experiment forced immediate secondary-task
+responses and did not manipulate response delay. It therefore does not validate
+the numerical thresholds above, measure an optimal waiting interval, or establish
+instantaneous recovery after closure. See [interruption costs](/vault/interruption-costs.md)
+for the distinct outcome comparisons and inferred mechanisms.
+
 ## Practical Use
 
 - Define timing goals separately for acknowledgment, first useful information, and completion.
@@ -42,6 +59,9 @@ Practitioner guidance separately prescribes escalating wait feedback: a busy ind
 - Communicate actual receipt, ongoing work, and completion through [visibility of system status](/vault/visibility-of-system-status.md); do not imply completion merely because an acknowledgment appeared.
 - Preserve task context through failures, connecting responsiveness with [error prevention and recovery](/vault/error-prevention-and-recovery.md).
 - Treat numerical targets as task-specific hypotheses. Better feedback and faster execution are complementary; feedback does not remove unnecessary delay.
+- Where urgency permits, locate deferrable secondary demands after meaningful
+  completion rather than interrupting an unfinished goal. This timing application
+  is distinct from delaying acknowledgment or necessary task feedback.
 
 ## Limitations
 
@@ -49,7 +69,14 @@ Expectations, skill, modality, variability, urgency, and the task's external ope
 
 Neither the closure model nor the threshold collections establish a universal step change in performance at a particular second. No direct replication verdict for the entire 17-category taxonomy is established in the dossier, and the later three-number shorthand does not validate it retrospectively.
 
+The boundary-timing experiment tests forced, obscuring secondary work with clear
+task endings, not every wait or freely managed notification. Its resource-release
+account is inferred rather than measured, and its claim of only a few seconds of
+deferral lacks a delay distribution. Boundary placement can reduce disruption
+without establishing a universal acceptable delay.
+
 ## Sources
 
 - [Response Time in Man-Computer Conversational Transactions](/dossiers/response-time-man-computer-conversational-transactions.md) — Miller's closure-based rationale, task-specific calculated guesses, and the distinction from Nielsen's later 0.1/1/10-second synthesis.
 - [First Principles of Interaction Design (Revised & Expanded)](/dossiers/first-principles-of-interaction-design.md) — Practitioner-prescribed escalating wait feedback, prompt acknowledgment, honest progress, and reduction of blocked time, without experiments validating the exact cutoffs.
+- [On the need for attention-aware systems: Measuring effects of interruption on task performance, error rate, and affective state](/dossiers/attention-aware-systems-interruption-effects.md) — Adds controlled boundary-timing evidence and its comparison limits without validating seconds-based thresholds, an optimal delay, or instantaneous recovery.

@@ -3,7 +3,7 @@ type: Synthesis
 title: Evaluator Effect
 description: Independent evaluators using the same usability method often identify different problems, so agreement, discovery coverage, and real-world validity must be assessed separately.
 tags: [usability-evaluation, ux-metrics, user-research, digital-interfaces]
-timestamp: 2026-10-11T23:59:36Z
+timestamp: 2026-10-12T20:43:27Z
 ---
 
 # Evaluator Effect
@@ -36,6 +36,11 @@ findings by the whole group's union. Its minimum is 1/n for n evaluators, and
 adding evaluators can lower the rate simply by enlarging that denominator.
 Neither statistic makes the collective list ground truth.
 
+This affects both [heuristic evaluation](/vault/heuristic-evaluation.md), where
+principles guide broad inspection, and
+[cognitive walkthrough](/vault/cognitive-walkthrough.md), where task-bound
+learning questions still require interpretation.
+
 ## The Evidence
 
 A review of **11 studies comprising 18 experiments** found average any-two
@@ -57,6 +62,20 @@ ratings themselves also diverged. Separate web-design guidance reports both
 inspection false positives and misses, reinforcing that discovery volume is not
 the same as validity; its cited case estimates are not universal error rates.
 
+The original heuristic experiments illustrate why aggregation helps:
+**148 distinct evaluators** performed **182 evaluator–interface evaluations**
+across **four experiments**. Mean individual coverage of the final known-problem
+inventories was **51%, 38%, 26%, and 20%**; simulated unions of **five independent
+evaluators** reached **90%, 70%, 63%, and 55%**. Low-total evaluators sometimes
+found problems missed by high-total evaluators, so findings were not perfectly
+nested. For the same **34 students** evaluating two systems, individual
+performance was related at **R² = .33, p < .01**, not a stable universal ranking.
+
+These are the **same Nielsen–Molich studies reanalyzed by the review**, not
+independent replication. Their aggregate curves simulate unions, not observed
+team collaboration; inventories were expanded after reports, and neither
+exhaustive coverage nor validity in actual use was established.
+
 ## Practical Use
 
 - For consequential evaluations, obtain an additional **independent** analysis,
@@ -69,6 +88,9 @@ the same as validity; its cited case estimates are not universal error rates.
   a merged inventory does not create shared severity judgments. Keep priority
   distinct from confidence, as in
   [Importance versus Evidence Strength](/vault/importance-versus-evidence-strength.md).
+- Treat both human reports and
+  [automated accessibility checks](/vault/automated-accessibility-testing-limits.md)
+  as partial coverage of the problem space, not interchangeable certificates.
 
 ## Limitations
 
@@ -88,3 +110,4 @@ the purpose of evaluation.
 
 - [The Evaluator Effect: A Chilling Fact about Usability Evaluation Methods](/dossiers/evaluator-effect-usability-evaluation-methods.md) — Defines the agreement measures, reviews 11 studies, isolates fixed-footage observer variation, and distinguishes reliability from validity and exhaustive coverage.
 - [Research-Based Web Design & Usability Guidelines](/dossiers/research-based-web-design-usability-guidelines.md) — Carries the evaluator-effect finding into evaluation guidance and reports contextual inspection false-positive, missed-problem, and severity-estimation evidence.
+- [Heuristic evaluation of user interfaces](/dossiers/heuristic-evaluation-of-user-interfaces.md) — Provides the four original experiments reanalyzed in the review, showing complementary independent findings, system-dependent detection, and simulated rather than observed-team aggregation.

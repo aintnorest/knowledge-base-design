@@ -3,7 +3,7 @@ type: Synthesis
 title: Figure–Ground Organization
 description: Figure–ground organization assigns shared borders to shaped surfaces through context-sensitive image cues, familiarity, and attention.
 tags: [visual-perception, layout, visual-hierarchy]
-timestamp: 2026-10-11T23:59:42Z
+timestamp: 2026-10-12T20:43:25Z
 ---
 
 # Figure–Ground Organization
@@ -28,6 +28,23 @@ Head-tilt and inversion experiments suggested that the lower-region bias uses a 
 
 Neural recordings provide converging context evidence: about **half** of oriented monkey V2 neurons in one study were border-ownership selective, with context effects emerging around **60–70 ms** after stimulus onset. These findings constrain mechanisms; they do not establish a timing requirement for design.
 
+## Applied Illustration: Changing Surface Polarity
+
+A practitioner inspection of light and dark presentations illustrates how
+darkening surfaces can erase distinctions that previously separated foreground
+from background. Weakened overlay/background separation and floating elements
+that blend into neighboring surfaces show why preserving literal content or
+text contrast does not preserve perceived layering. The source recommends
+surface differentiation and perceivable boundaries rather than assuming a
+reversed shadow supplies equivalent depth.
+
+These are **illustrated design observations, not a controlled figure–ground
+study**. They demonstrate a reason to inspect the whole composition after a
+presentation change; they do not establish a border-ownership effect size or
+prove that every layer needs a border. Section membership is still a
+[grouping question](/vault/perceptual-grouping-cues.md), distinct from perceiving
+one shaped surface as nearer.
+
 ## Practical Use
 
 As design inferences from the review:
@@ -36,6 +53,9 @@ As design inferences from the review:
 - Inspect boundaries, occlusion, shading, and neighboring colors together rather than treating each surface in isolation.
 - Check whether background shapes or familiar silhouettes unintentionally acquire the strongest shaped-surface interpretation.
 - Test ambiguous arrangements in their actual composition and viewing conditions instead of relying on a single cue's supposed priority.
+- After a polarity change, inspect whether foreground surfaces, overlays, and
+  floating elements remain separate from their surrounds; preserve the intended
+  relationship rather than mechanically reversing each color or shadow.
 
 ## Limitations
 
@@ -43,6 +63,11 @@ Cue effects depend on exposure, region count, color context, and the competing i
 
 These findings explain perceptual organization, not the measured effectiveness of particular layouts or a universal recipe for visual emphasis.
 
+The applied polarity examples extend the research as a design illustration,
+not a replication. Their source reports no controlled layering comparison,
+usability-test sample size, or quantitative outcome for those inspections.
+
 ## Sources
 
 - [A Century of Gestalt Psychology in Visual Perception I. Perceptual Grouping and Figure-Ground Organization](/dossiers/century-gestalt-psychology-grouping-figure-ground.md) — Distinguishes grouping from border ownership and reviews context-dependent figure cues, observer influences, and neural evidence.
+- [Dark Mode: How Users Think About It and Issues to Avoid](/dossiers/dark-mode-users-issues.md) — Provides NN/g's practitioner examples of weakened overlay, grouping, and floating-element separation after dark-mode conversion, without controlled figure–ground measurements.
