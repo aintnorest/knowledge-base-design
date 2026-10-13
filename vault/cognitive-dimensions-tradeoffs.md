@@ -3,7 +3,7 @@ type: Synthesis
 title: Cognitive Dimensions Tradeoffs
 description: Cognitive dimensions describe activity-dependent structural burdens in information artefacts, making redesign tradeoffs explicit rather than reducing usability to a single score.
 tags: [cognitive-load, usability-evaluation, interaction-design, design-process]
-timestamp: 2026-10-12T00:00:39Z
+timestamp: 2026-10-13T18:49:22Z
 ---
 
 # Cognitive Dimensions Tradeoffs
@@ -79,6 +79,15 @@ These make mechanisms inspectable but do not validate a universal profile or
 quantify redesign benefits. A later cautionary analysis warns that selecting only
 some dimensions can miss changes in verbosity and error-proneness.
 
+A first-party design-system account describes the same exchange in a shared
+component library. More abstraction lets consumers supply less input but makes
+the component's behavior harder to see and adjust, and practitioners report
+consumers abandoning opaque shared components for local copies. Exposing
+replaceable sub-parts and composition alongside complete defaults moves
+complexity to where it can be handled rather than removing it. The account
+reports no abandonment counts, comprehension tests, or maintenance outcomes,
+and it does not apply the framework itself; the connection is interpretive.
+
 ## Practical Use
 
 - Examine a realistic revision, correction, or reuse task as well as the first
@@ -109,3 +118,4 @@ not establish safety, accessibility, or overall experience quality.
 ## Sources
 
 - [Cognitive Dimensions of Information Artefacts: a Tutorial](/dossiers/cognitive-dimensions-information-artefacts-tutorial.md) — Defines the activity-sensitive framework, viscosity, premature commitment, provisionality, and secondary notation; reports the illustrative LabView, Prograph, and Basic editing times and the framework's evidential and internal-consistency limits.
+- [Multiple Layers of Abstraction in Design Systems](/dossiers/multiple-layers-of-abstraction-design-systems.md) — Spotify's 2023 first-party account supplies a practitioner example of trading repeated local assembly for the opacity of a shared abstraction, with replaceable sub-parts proposed as an escape route; no measured burden reduction.

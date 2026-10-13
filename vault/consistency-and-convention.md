@@ -3,7 +3,7 @@ type: Synthesis
 title: Consistency and Convention
 description: Stable meanings, learned action consequences, and shared conventions let people reuse knowledge, but familiarity is audience-specific and does not require uniform appearance.
 tags: [interaction-design, cognitive-load, digital-interfaces, usability-evaluation]
-timestamp: 2026-10-12T20:43:32Z
+timestamp: 2026-10-13T18:49:22Z
 ---
 
 # Consistency and Convention
@@ -67,6 +67,12 @@ The sources support different outcomes rather than one universal effect size:
   familiarity is individual and cultural, not a universal property of an icon.
   This is **task-force consensus with cited research**, supported by functional
   rationale and fictional scenarios rather than measured treatment effects.
+- **Organizational rationale:** in interviews with **nine design-system
+  leaders**, three described a shared system as a common language that keeps
+  product meanings coherent and gives designers and developers a shared
+  vocabulary, and five named consistency and coherence as a benefit. These are
+  perceived benefits from experienced practitioners, not measured user
+  learning, errors, or performance.
 
 Conceptual and practitioner accounts recommend protecting habitual action
 meanings more strongly than ornamental sameness. They supply useful diagnostic
@@ -111,3 +117,4 @@ prohibition.
 - [Research-Based Web Design & Usability Guidelines](/dossiers/research-based-web-design-usability-guidelines.md) — Synthesizes evidence for repeatable sequences and learned locations while separating performance from preference.
 - [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Establishes category-prototype effects on brief aesthetic judgments without requiring brand familiarity.
 - [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Connects stable meanings, familiar layouts, and predictable routes to cognitive access while qualifying conventions through culture, personal symbols, and controllable adaptation.
+- [Understanding and Supporting the Design Systems Practice](/dossiers/understanding-supporting-design-systems-practice.md) — Adds nine design-system leaders' common-language and coherence rationale, bounded as perceived organizational benefit rather than measured user outcomes.
