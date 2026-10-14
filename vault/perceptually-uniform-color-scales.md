@@ -3,7 +3,7 @@ type: Synthesis
 title: Perceptually Uniform Color Scales
 description: Perceptual color models make lightness relationships across hues more predictable, but palette structure must match the message and remain bounded by approximate uniformity, hue-specific chroma, and device gamut.
 tags: [color, visual-perception, data-visualization, accessibility, low-vision]
-timestamp: 2026-10-12T20:43:20Z
+timestamp: 2026-10-14T21:39:20Z
 ---
 
 # Perceptually Uniform Color Scales
@@ -81,6 +81,30 @@ ordering-accuracy or equal-salience study**. Its language of “intensity” com
 light–dark and pale–bright differences without a formal perceptual metric, and
 its sample palettes are not quantitatively validated as uniform.
 
+## Smoothness Also Depends on Rendering Precision
+
+An ordered ramp can acquire visible false contours when quantization turns a
+smooth gradient into steps. Visibility depends on adaptation luminance, spatial
+frequency, viewing angle, and sensitivity along different luminance and
+opponent-color directions—not just distance between color-space coordinates.
+Perceptual organization and artifact-free rendering are separate requirements.
+
+In a four-alternative detection study, **nine observers aged 19–45** viewed
+calibrated gradients on a VR display peaking at **44 cd/m²**. Lower luminance
+required more luminance bits; one perceptually motivated transfer function
+produced more stable depth requirements across luminances than its comparison.
+For equiluminant gradients along **two chromatic directions**, a newer
+opponent-color encoding consistently needed fewer bits than the alternative;
+within each encoding, reported direction and luminance differences were small.
+Sensitivity can depend on color direction without this experiment showing a
+large direction effect in those particular comparisons.
+
+A model weighting quantization error by spatial frequency, luminance, and color
+sensitivity agreed with reported error bars, but parameters were fitted to the
+same observations. This is not held-out validation or a universal precision
+saving. Banding detection also differs from isolated color-patch discrimination,
+palette ordering, and semantic interpretation.
+
 ## Practical Use
 
 - Define category distinction, ordered magnitude, divergence, or emphasis before
@@ -95,13 +119,16 @@ its sample palettes are not quantitatively validated as uniform.
 - Test category discrimination and preserve non-color meaning through
   [Color Coding for Status](/vault/color-coding-for-status.md). A reading-contrast
   pass cannot certify that all viewers distinguish the hues.
+- Inspect rendered smooth ramps under relevant brightness, display, and viewing
+  conditions; equal intended color steps do not guarantee invisible banding.
 
 ## Limitations
 
 Perceptual uniformity is approximate and conditional on rendering and viewing
 conditions. Equal model lightness, equal luminance contrast, and equal attention
-are not interchangeable. Neither source establishes equal perceived intervals or
-salience across observers, displays, and color-vision profiles.
+are not interchangeable. The palette and chart sources do not establish equal
+perceived intervals or salience across observers, displays, and color-vision
+profiles; gradient detection addresses a different endpoint.
 
 The redesign is a dated implementation experience rather than a universal
 palette algorithm or accessibility standard. Its approved relationships assume
@@ -113,7 +140,15 @@ validate its palettes as a substitute for audience- and task-specific evaluation
 A uniform scale cannot by itself ensure legibility, semantic clarity, aesthetic
 appeal, or complete accessibility.
 
+The gradient experiment uses a small normal-color-vision sample and one
+low-peak-luminance VR device, not a general HDR-display validation. Its model
+excludes masking to target smooth, low-texture gradients; textured imagery,
+annoyance, sustained use, and chart comprehension remain outside the result.
+Encoding threshold differences are not fully tabulated or inferentially tested,
+and no independent replication or held-out generalization is established.
+
 ## Sources
 
 - [Designing accessible color systems](/dossiers/designing-accessible-color-systems.md) — Stripe's redesign contributes aligned lightness curves, selected contrast checks, hue-specific chroma tradeoffs, and the approximate nature and gamut boundaries of perceptual organization.
 - [Practical Rules for Using Color in Charts](/dossiers/practical-rules-using-color-in-charts.md) — Contributes categorical, sequential, and diverging structures, mark-size constraints, and the distinction between numerical ordering and evaluative emphasis without quantitative palette validation.
+- [A visual model for predicting chromatic banding artifacts](/dossiers/chromatic-banding-visual-model.md) — Adds nine-observer VR gradient thresholds, PQ/sRGB and ICtCp/Y′CbCr comparisons, and luminance/spatial/color-sensitivity limits; fitted agreement is not independent validation or universal bit savings.

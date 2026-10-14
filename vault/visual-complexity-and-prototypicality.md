@@ -3,7 +3,7 @@ type: Synthesis
 title: Visual Complexity and Prototypicality
 description: Website first-impression appeal depends on perceived complexity and learned category typicality, but very sparse pages need not fare best and audience differences do not provide reliable demographic design rules.
 tags: [aesthetics, visual-perception, layout, digital-interfaces, user-research]
-timestamp: 2026-10-12T20:43:29Z
+timestamp: 2026-10-14T21:39:20Z
 ---
 
 # Visual Complexity and Prototypicality
@@ -36,6 +36,27 @@ Complexity preferences differed with age, gender, country, and education, withou
 
 The full model's **conditional R²=.47** includes participant and site random effects, whereas **marginal R²=.07** describes the fixed predictors alone. Complexity, colorfulness, and demographics therefore do not explain **47%** by themselves. Neither statistic establishes held-out accuracy or the benefit of demographic personalization, and they are not directly comparable to the earlier **adjusted R²=.48**. This extension did **not measure prototypicality** or independently replicate the masked joint-factor experiments.
 
+## Local Feature Congestion Is a Different Diagnostic
+
+Clutter can arise from local color and luminance-contrast variability rather
+than item count alone. A feature-congestion model estimates how much surrounding
+feature variation leaves room for a new distinctive signal. Grouping similar
+features can preserve local distinctions without removing information; removing
+content can instead increase navigation or memory demands.
+
+In a separate study, **20 observers aged 10–48** ranked **25 full-color printed
+maps** by their own intuitive definition of clutter. Agreement was substantial
+(**Kendall's W=.72**); model correlation with average human rankings was
+**Spearman .83**. This is subjective-clutter agreement, not **83% accuracy** or a
+measured search benefit. Text-heavy maps with little color variation were
+prominent failures, showing why image statistics cannot replace meaningful text
+organization.
+
+This evidence does **not** measure appeal or prototypicality and does not
+replicate the website experiments. It adds a perceptual diagnostic, not a bridge
+from less congestion to greater beauty or usability. Its signal-capacity account
+also qualifies [Preattentive Features](/vault/preattentive-features.md).
+
 ## Practical Use
 
 - Evaluate simplicity against the audience's category expectations rather than maximizing emptiness.
@@ -43,6 +64,8 @@ The full model's **conditional R²=.47** includes participant and site random ef
 - Use early appeal as one outcome alongside actual task performance; it is not evidence of navigation success or durable satisfaction.
 - Treat audience differences as research hypotheses, not demographic design stereotypes.
 - Recruit across relevant audience differences and test very sparse as well as dense alternatives; do not choose an individual's complexity preference from age or nationality.
+- Diagnose local feature competition as well as global density; retain necessary
+  information and meaningful grouping rather than minimizing a clutter score.
 
 ## Limitations
 
@@ -50,8 +73,15 @@ The experiments use static desktop screenshots, not responsive interaction, moti
 
 The predictive work uses purposive stimuli, self-selected volunteers, model selection, and exclusions for inconsistent repeated ratings. No held-out site or participant evaluation is reported. The international extension adds English-language instructions, unbalanced country representation, and exclusion of mixed-nationality or migration backgrounds from country comparisons. These conditions limit demographic transfer, and observational differences do not establish cultural causes. None of the programs establishes downstream trust, abandonment, personalization benefits, or the [aesthetic–usability effect](/vault/aesthetic-usability-effect.md).
 
+The congestion study uses a small printed-map collection, no controlled clutter
+manipulation, and no timed task. It reports no held-out validation or independent
+replication and admits text-heavy failures. Added-symbol examples illustrate a
+design use without testing detection. Its broad performance-based definition
+of clutter must not be mistaken for its measured subjective-ranking outcome.
+
 ## Sources
 
 - [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Supplies masked company-homepage evidence for the interaction, brief-exposure effects, and category and population boundaries.
 - [Predicting Users’ First Impressions of Website Aesthetics With a Quantification of Perceived Visual Complexity and Colorfulness](/dossiers/predicting-website-aesthetics-first-impressions.md) — Adds calibrated complexity measures, broader complexity–appeal associations, observer differences, and limits of in-sample prediction; does not measure prototypicality.
 - [Quantifying Visual Preferences Around the World](/dossiers/quantifying-visual-preferences-around-the-world.md) — Adds international audience variation, the sparse-page boundary, an opposing older-user preference pattern, and conditional-versus-marginal fit limits; does not measure prototypicality.
+- [Feature Congestion: A Measure of Display Clutter](/dossiers/feature-congestion-display-clutter.md) — Adds local color/contrast variability and .83 model–human map-clutter rank agreement, bounded by text-heavy failures and no appeal, prototypicality, or task-performance test.

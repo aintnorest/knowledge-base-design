@@ -3,7 +3,7 @@ type: Synthesis
 title: Consistency and Convention
 description: Stable meanings, learned action consequences, and shared conventions let people reuse knowledge, but familiarity is audience-specific and does not require uniform appearance.
 tags: [interaction-design, cognitive-load, digital-interfaces, usability-evaluation]
-timestamp: 2026-10-13T18:49:22Z
+timestamp: 2026-10-14T21:39:45Z
 ---
 
 # Consistency and Convention
@@ -27,6 +27,10 @@ pattern regardless of the task.
 - **Distinguishable differences** communicate genuinely different behavior. A
   coherent design can vary its appearance when doing so protects expectations
   better than visual uniformity would.
+- **Input conventions** preserve the distinction between moving among components
+  and exploring within a group. A familiar control identity should carry its
+  expected behavior across keyboard, screen-reader, and voice-input interaction,
+  not merely resemble the control visually.
 
 A convention must be shared by the intended users, not merely familiar to the
 team. The distinction between an available action and a cue communicating it is
@@ -73,6 +77,13 @@ The sources support different outcomes rather than one universal effect size:
   vocabulary, and five named consistency and coherence as a benefit. These are
   perceived benefits from experienced practitioners, not measured user
   learning, errors, or performance.
+- **Keyboard transfer:** informative accessibility guidance recommends established
+  group-navigation patterns rather than a flat sequence through every item.
+  Entry location depends on the kind of group: the selected, previously focused,
+  or first item can be appropriate under different conventions. Recognizable
+  control identity supports transfer only when operation matches that meaning;
+  semantics alone do not supply missing keyboard behavior. The source provides
+  **no participant study or measured learning, error, or efficiency effect**.
 
 Conceptual and practitioner accounts recommend protecting habitual action
 meanings more strongly than ornamental sameness. They supply useful diagnostic
@@ -95,6 +106,14 @@ models, not controlled estimates of the cost of every departure.
   familiar meanings. Test that personalization retains content, critical paths,
   and a clear route back; see
   [cognitive accessibility user needs](/vault/cognitive-accessibility-user-needs.md).
+- Preserve pattern-appropriate group navigation and logical traversal aligned
+  with reading order and language direction. Do not impose one entry rule on
+  every kind of composite control.
+- Keep pointer and keyboard interaction coherent about the current active item.
+  Distinguish focus, where the next action applies, from persistent selection.
+- Make shortcuts augment ordinarily navigable actions rather than requiring
+  documentation and memorization; see
+  [recognition over recall](/vault/recognition-over-recall.md).
 
 ## Limitations
 
@@ -107,6 +126,12 @@ overriding rule: task requirements or clearer communication can justify a
 noticeable departure. Innovation carries a relearning question, not an automatic
 prohibition.
 
+Keyboard conventions vary with operating environment, assistive technology,
+localization, and input capability. The guidance snapshot contains unfinished
+focus and shortcut material, including unresolved exceptions around command
+conflicts. It is informative guidance, not a complete normative command policy;
+familiar naming cannot guarantee correct operation or interoperability.
+
 ## Sources
 
 - [Aesthetics and Apparent Usability: Empirically Assessing Cultural and Methodological Issues](/dossiers/aesthetics-and-apparent-usability.md) — Provides three pre-use ATM-layout studies and the culturally bounded keypad-preference comparison.
@@ -118,3 +143,4 @@ prohibition.
 - [The Role of Visual Complexity and Prototypicality Regarding First Impression of Websites: Working Towards Understanding Aesthetic Judgments](/dossiers/visual-complexity-prototypicality-website-first-impressions.md) — Establishes category-prototype effects on brief aesthetic judgments without requiring brand familiarity.
 - [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Connects stable meanings, familiar layouts, and predictable routes to cognitive access while qualifying conventions through culture, personal symbols, and controllable adaptation.
 - [Understanding and Supporting the Design Systems Practice](/dossiers/understanding-supporting-design-systems-practice.md) — Adds nine design-system leaders' common-language and coherence rationale, bounded as perceived organizational benefit rather than measured user outcomes.
+- [Developing a Keyboard Interface](/dossiers/aria-apg-keyboard-interface.md) — Adds W3C APG's group-navigation, control-identity, and cross-input continuity rationale, with pattern-dependent entry and unmeasured learning benefits.

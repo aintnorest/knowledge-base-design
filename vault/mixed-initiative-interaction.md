@@ -3,7 +3,7 @@ type: Synthesis
 title: Mixed-Initiative Interaction
 description: Share initiative through context-sensitive acting, asking, and waiting while preserving user control and independent judgment, without treating confidence or delayed advice as universal performance guarantees.
 tags: [delegation, interaction-design, decision-making, attention, digital-interfaces]
-timestamp: 2026-10-13T00:04:35Z
+timestamp: 2026-10-14T21:39:10Z
 ---
 
 # Mixed-Initiative Interaction
@@ -35,6 +35,33 @@ dismissal or termination repairs unwanted help; refinement repairs an imperfect
 result. Context-sensitive timing, recent-interaction memory, granular feedback,
 global controls, and cautious adaptation keep these routes useful as behavior
 changes over time.
+
+## Match Initiative to the Current Purpose
+
+Observation of **20 programmers**, with same-study corroboration from **five
+external livestreams**, distinguishes two fluid purposes for assistance:
+
+- **Acceleration:** the person understands the next step and wants help expressing
+  a logical unit. Long unsolicited suggestions can turn expression into unwanted
+  review; the appropriate unit is task-dependent, not a fixed line count.
+- **Exploration:** the person is discovering the next step and deliberately
+  requests alternatives, examines them, and repairs or combines fragments.
+  Meaningful differences matter more than the number of options; detached
+  alternatives can add contextual reconstruction work.
+
+These are observed interaction patterns, not stable user types or experimentally
+validated modes. Pooled exploration time was **248.6 minutes versus 104.7
+accelerating**; this does not measure a causal speedup or prove that automatic
+mode adaptation improves outcomes.
+
+An autonomous-execution comparison with **20 novice agent users** further shows
+why capability does not settle initiative. Correct completion increased
+**25% → 60%**, yet only **20%** intended to prefer the agent over less autonomous
+assistance and **60%** disagreed with that intention. Participants described
+scope mismatch and difficulty locating or understanding changes. Transparent
+actions, constrained proactivity, effective steering, and clear stopping
+boundaries are motivated design proposals, not tested remedies. Parallel work
+was proposed but was not observed in this experiment.
 
 ## Advice Before or After Independent Judgment
 
@@ -74,14 +101,19 @@ additional controlled replication of cognitive forcing.
 - Scope uncertain help to something inspectable and refinable. Distinguish a
   local correction or feedback signal from a global behavior setting, and make
   the consequences of each clear.
+- Support a known next step without forcing an exploration session; make
+  alternatives deliberately invocable and meaningfully comparable when the next
+  step is uncertain. Treat mode-sensitive timing and scope as hypotheses to test,
+  not a validated automatic adaptation rule.
 - Test immediate, requested, and independent-first advice against a useful
   baseline. Measure correct- and incorrect-advice decisions separately, together
   with effort and experience; see
   [appropriate reliance on automation](/vault/appropriate-reliance-on-automation.md).
-- For software-agent supervision, previews, bounded action, cheap cancellation,
-  and a reviewer's initial judgment are **extrapolations beyond the studied
-  scheduling, nutrition, sentiment, and reasoning domains**. Test whether they
-  improve actual review decisions rather than assuming transfer.
+- For software-agent supervision, bounded proactivity, understandable changes,
+  and stopping routes now have direct coding-study motivation; see
+  [software agent oversight](/vault/software-agent-oversight.md). Their benefits
+  remain untested. Independent-first review and transfer of the historical
+  act/ask/wait model remain **extrapolations**, not proven coding-review designs.
 
 ## Evidence and Boundaries
 
@@ -102,8 +134,16 @@ was rated more complex than immediate advice. Benefits differed across measured
 need-for-cognition groups, but no direct interaction test established moderation;
 there is no validated personalization rule. The explanation studies used curated
 crowdworker tasks and contain unresolved retained-sample reporting contradictions.
-Their null comparisons are not equivalence tests. None of these sources validates
-a universal wait, generative-agent oversight, or long-term adaptation outcomes.
+Their null comparisons are not equivalence tests. None validates a universal wait
+or long-term adaptation outcomes.
+
+The programmer-mode evidence is qualitative and descriptive, from short tasks
+and a convenience sample, without a mode-adaptive intervention or unaided
+productivity baseline. The autonomous-execution comparison combines model,
+environment, and interface differences; its students were new to agents and its
+tasks were selected challenges. These coding sources motivate oversight support
+but do not validate the proposed controls, safe parallel supervision, or an
+optimal autonomy policy.
 
 ## Sources
 
@@ -111,3 +151,5 @@ a universal wait, generative-agent oversight, or long-term adaptation outcomes.
 - [Principles of Mixed-Initiative User Interfaces](/dossiers/principles-of-mixed-initiative-user-interfaces.md) — Supplies the 12-principle account, context-dependent expected-utility choice among acting, asking, and waiting, and editable scoped assistance, illustrated rather than experimentally validated.
 - [To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making](/dossiers/cognitive-forcing-functions-overreliance-on-ai.md) — Tests requested, independent-first, and delayed advice in a 199-person nutrition experiment; pooled error-trial gains do not establish overall improvement or a winning individual design.
 - [Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance](/dossiers/ai-explanations-complementary-team-performance.md) — Motivates independent-judgment and timing proposals through limited incremental explanation gains and qualitative collaboration strategies, without experimentally isolating those proposals.
+- [Grounded Copilot: How Programmers Interact with Code-Generating Models](/dossiers/grounded-copilot-programmer-interaction.md) — Supplies observed acceleration/exploration purposes, unsolicited-scope costs, and comparison needs across 20 programmers and five livestreams, without testing mode adaptation.
+- [Code with Me or for Me? How Increasing AI Automation Transforms Developer Workflows](/dossiers/code-with-me-or-for-me-ai-automation.md) — Supplies the 20-person Copilot/OpenHands comparison and control-related complaints that motivate transparency, bounded proactivity, and steering, not an evaluated remedy.

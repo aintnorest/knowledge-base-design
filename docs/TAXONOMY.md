@@ -124,7 +124,7 @@ stop accumulating evidence.
 
 | Candidate | Evidence so far |
 |---|---|
-| — | No candidates yet. |
+| `change-review` | Reviewing a proposed change (code, design, content, or agent output) before it is accepted: review purpose, scope, context, and reviewer familiarity. Flagged 2026-10-14: three code-review dossiers ([Google](/dossiers/modern-code-review-case-study-google.md), [Microsoft usefulness](/dossiers/characteristics-of-useful-code-reviews.md), [Microsoft expectations](/dossiers/expectations-outcomes-challenges-modern-code-review.md)) tagged with `design-process` as the nearest fit, plus [code readability studies](/dossiers/code-readability-legibility-human-centric-studies.md) and [change-review-effectiveness](/vault/change-review-effectiveness.md). |
 
 ## Alias Map
 

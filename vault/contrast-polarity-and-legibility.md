@@ -3,7 +3,7 @@ type: Synthesis
 title: Contrast Polarity and Legibility
 description: Dark-on-light text often improves recognition or reading for normal and corrected vision, but the advantage depends on task and illumination and does not establish greater comfort or suit every visual condition.
 tags: [typography, visual-perception, low-vision, accessibility, digital-interfaces]
-timestamp: 2026-10-12T20:43:25Z
+timestamp: 2026-10-14T21:39:20Z
 ---
 
 # Contrast Polarity and Legibility
@@ -79,6 +79,29 @@ recommendation concerns comfort and sustained use; it does not contradict the
 laboratory near-dark recognition penalty. Preserving user choice is guidance,
 not proof that either polarity improves every user's performance.
 
+## Preserve Hierarchy Across Dark Surfaces
+
+Historical design-system guidance recommends **lighter elevated dark surfaces**
+to preserve depth when ordinary shadows become weak. This is a convention with
+visual rationale, not a measured improvement in depth judgments or reading.
+Dark cast shadows remain distinct from the surface-lightening cue; literal
+inversion is not the model.
+
+Lightening, tinting, and opacity change the effective content–surface pair.
+Contrast checked only against the darkest base does not establish readable
+content on the **lightest elevated layer**. Relative text and icon emphasis must
+therefore be assessed on the surface where it appears. Sparse accents can
+preserve hierarchy, but saturation alone neither establishes nor prevents a
+contrast pass. Selected light feedback surfaces can also preserve functional
+prominence within an otherwise dark presentation.
+
+The supporting guidance belongs to an **unmaintained second-generation design
+system, captured October 2026**; it is not a current standard or guidance for its
+successor. It supplies no participant, physiological, or reading-performance
+measure. Assertions about reduced strain or visual vibration remain rationale,
+not empirical evidence overturning the polarity findings above. See
+[Signifier Strength](/vault/signifier-strength.md) for preserving action cues.
+
 ## Practical Use
 
 - Favor positive polarity when optimizing ordinary text recognition, while
@@ -91,6 +114,9 @@ not proof that either polarity improves every user's performance.
   disabled users rather than extrapolating from age alone.
 - Treat stroke changes as task-dependent typography decisions, not a proven
   negative-polarity repair; see [Typeface Legibility](/vault/typeface-legibility.md).
+- Check content contrast across the full surface hierarchy, including elevation,
+  tint, and opacity; retain depth and emphasis rather than literally inverting
+  colors or relying on the darkest base alone.
 
 ## Limitations
 
@@ -112,9 +138,16 @@ reported usability-test sample size or long-term natural-use comparison, and no
 independent direct replication of these exact experimental designs is
 established in the dossiers.
 
+The historical design-system source invokes **4.5:1** for normal text without
+naming a standards version. Its additional base-surface headroom is specific
+to its elevation scheme, not a universal contrast obligation. No experiment
+establishes its surface-lightening, accent, opacity, or comfort recommendations;
+disabled-user applicability is asserted rather than tested.
+
 ## Sources
 
 - [Positive display polarity is advantageous for both younger and older adults](/dossiers/positive-display-polarity-younger-older-adults.md) — Supplies randomized acuity and proofreading evidence across non-pathological age groups, a reading-rate and comfort null, and total-illumination and reporting boundaries.
 - [Effects of ambient illumination, contrast polarity, and letter size on text legibility under glance-like reading](/dossiers/ambient-illumination-contrast-polarity-letter-size.md) — Establishes the near-dark negative-polarity threshold cost and small-size interaction, with a non-significant daylight comparison and selection/order limitations.
 - [How bold can we be? The impact of adjusting font grade on readability in light and dark polarities](/dossiers/how-bold-can-we-be-font-grade-polarity.md) — Adds modest remote desktop and Android reading effects, balanced preference, bounded grade nulls, and unresolved numerical reporting inconsistencies.
 - [Dark Mode: How Users Think About It and Issues to Avoid](/dossiers/dark-mode-users-issues.md) — Separates NN/g's survey and qualitative observations from comfort beliefs and secondary low-vision evidence, motivating user choice without a controlled legibility claim.
+- [Material 2 Dark Theme](/dossiers/material-dark-theme.md) — Adds Google's unmaintained Material 2 surface-hierarchy convention and contrast checks on the lightest elevated layer, captured October 2026; supplies no controlled legibility or comfort evidence and does not describe Material 3.

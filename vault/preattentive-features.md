@@ -3,7 +3,7 @@ type: Synthesis
 title: Preattentive Features
 description: Distinctive visual features can support rapid search, but their advantage depends on contrast, distractors, feature combinations, and goals rather than guaranteeing attention or memory.
 tags: [visual-perception, attention, visual-hierarchy, data-visualization]
-timestamp: 2026-10-13T00:04:31Z
+timestamp: 2026-10-14T21:39:20Z
 ---
 
 # Preattentive Features
@@ -63,6 +63,20 @@ dots could still communicate the wrong priority. These are expert judgments,
 not measured search, comprehension, or multitasking benefits: rapid selection
 needs a meaningful, learned mapping once the display is inspected.
 
+A feature-congestion model makes the local-background condition explicit:
+salience depends on how unusual a target is relative to surrounding color and
+contrast variation. A color distinctive among homogeneous items can become
+ordinary among heterogeneous ones. Congestion concerns the **capacity to add a
+new distinguishing signal**, not merely object count or average pixel salience.
+Grouping similar features into regions can leave local room for distinction.
+
+Its empirical support is **20 observers' subjective rankings of 25 printed
+maps**, with **Spearman .83** agreement between model and average rankings.
+That validates a clutter diagnostic in this collection, not detection speed or
+search accuracy. Added colored symbols illustrate a proposed use without a
+measured detection benefit. Only color and luminance contrast were implemented;
+orientation and motion were proposed extensions.
+
 ## Practical Use
 
 - Reserve clear feature contrast for the attribute relevant to the user's
@@ -78,6 +92,8 @@ needs a meaningful, learned mapping once the display is inspected.
   attention capture can impose a separate distraction cost.
 - Keep needed details available for reinspection instead of treating rapid
   selection as [working-memory storage](/vault/working-memory-capacity-limits.md).
+- Preserve local signal capacity: test a new cue against the feature variation
+  already occupying its neighborhood, not only against a blank background.
 
 ## Limitations
 
@@ -94,7 +110,14 @@ recall. Thus neither salience nor gaze establishes recognition, comprehensive
 memory, or reliable detection under competing demands. Expertise, viewing
 conditions, and accessibility needs require separate evaluation.
 
+Feature congestion does not model all crowding, occlusion, semantics, goals, or
+expertise. Its map study supplies no task-performance comparison or held-out
+validation and performs poorly on some text-heavy, low-color-variation maps.
+Neither a low score nor its added-symbol demonstrations certify that an alert
+will be noticed during competing work.
+
 ## Sources
 
 - [Attention and Visual Memory in Visualization and Computer Graphics](/dossiers/attention-visual-memory-visualization.md) — Surveys single-glance search, similarity and feature-interference findings, competing attention theories, and the distinction between selection and memory.
 - [Designing Glanceable Peripheral Displays](/dossiers/designing-glanceable-peripheral-displays.md) — Adds expert-judgment evidence that visual distinctness alone cannot establish meaningful interpretation, correct priority, or a multitasking benefit.
+- [Feature Congestion: A Measure of Display Clutter](/dossiers/feature-congestion-display-clutter.md) — Models local feature variability and remaining signal capacity; subjective printed-map agreement supports a bounded clutter diagnostic, not experimentally verified pop-out or alert detection.

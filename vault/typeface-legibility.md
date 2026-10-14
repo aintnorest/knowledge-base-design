@@ -3,7 +3,7 @@ type: Synthesis
 title: Typeface Legibility
 description: Letter size, case, width, stroke strength, and font design can shift visual reading thresholds, but their effects depend on acuity reserve and task rather than establishing universal uppercase, monospace, or boldness rules.
 tags: [typography, visual-perception, low-vision, accessibility, digital-interfaces, human-performance]
-timestamp: 2026-10-12T20:43:25Z
+timestamp: 2026-10-14T21:39:20Z
 ---
 
 # Typeface Legibility
@@ -30,6 +30,21 @@ at the same nominal setting. **Grade** changes stroke strength while preserving
 character advance widths; ordinary weight changes can also change width and
 reflow. These distinctions help identify what a typography comparison actually
 varied rather than attributing every result to a font category.
+
+Changing font size within fixed margins also changes characters per line;
+preserving characters per line changes physical width instead. Older
+character-density studies sometimes squeezed letter width without changing
+height. Successful whole-layout packages cannot isolate the contributions of
+font, spacing, margins, or text movement. See
+[Line Length and Reading](/vault/line-length-and-reading.md) for these constraints.
+
+Visual identification is also not semantic comprehension. A **54-paper** review
+of code-reading evaluations distinguishes identifying elements through spacing,
+alignment, indentation, and capitalization from understanding structure and
+behavior. **Nine papers used opinion alone**; four used eye tracking and two
+restricted-view measures. Liking, fixation patterns, and viewing time do not by
+themselves show understanding. This is a measurement framework, not evidence
+that a font family improves code comprehension.
 
 ## Evidence Near Visual Limits
 
@@ -90,6 +105,33 @@ Conflicting corrected-value columns prevent treating the table as a clear
 corrected significance result. A bounded null is not evidence that arbitrary
 boldness is harmless or that grade repairs light spread on dark backgrounds.
 
+## Screen Tasks and Dyslexia
+
+Two web-task experiments with **72 searchers** and **99 navigation participants**
+compared a sans-serif setting at **10 point** with a serif setting at **12 point**,
+chosen to approximate physical size. Neither found significant font performance
+effects. The sans-serif setting was strongly preferred after search, but its
+preference advantage after navigation was nonsignificant. These are bounded
+task-specific nulls, not equivalence tests or a general serif disadvantage;
+glyph dimensions and layout were not fully matched.
+
+A dyslexia experiment recruited **48 diagnosed readers**, with **46 valid
+eye-tracking recordings**, for twelve counterbalanced **60-word Spanish texts**.
+One italic setting averaged **34.99 seconds versus 28.35** for its upright
+counterpart and was significantly slower than that and two other upright fonts.
+Category comparisons favored upright, sans-serif, and one monospaced design on
+**fixation duration**, but not significantly on **whole-text reading time**.
+Shorter fixations are therefore not interchangeable with faster reading.
+
+A font marketed for dyslexia had **no demonstrated reading advantage**, and two
+conventional families were preferred over its upright and italic variants.
+Preference and time were only weakly associated (**r=−.13**). All settings used
+equal nominal **14-point** size, not matched x-height; geometry, spacing, and
+wrapping remained bundled. Comprehension questions filtered trials rather than
+demonstrating improved understanding. Dyslexia with normal vision is a distinct
+reading need, not a low-vision acuity result; see
+[Cognitive Accessibility User Needs](/vault/cognitive-accessibility-user-needs.md).
+
 ## Practical Use
 
 - Evaluate actual glyph dimensions and viewing distance, not point size alone.
@@ -104,6 +146,10 @@ boldness is harmless or that grade repairs light spread on dark backgrounds.
   mind; do not replace usable enlargement with a universal typographic recipe.
 - Separate legibility from preference and brand expression. These studies did
   not experimentally show that aesthetically appealing typography causes harm.
+- Evaluate reading accommodations with the intended readers rather than assuming
+  a disability-specific label or a serif/monospace category guarantees benefit.
+- In code or other symbolic material, pair visual identification measures with
+  the semantic decisions the task requires; preference and gaze are not enough.
 
 ## Limitations
 
@@ -127,6 +173,16 @@ No independent direct replication of these complete comparisons is established
 in the dossiers. Font categories alone cannot predict the outcome of a new
 setting.
 
+The new screen comparisons likewise bundle font geometry with settings. The
+web experiments use small, non-scrolling desktop layouts and opportunity
+samples; their nulls do not rule out smaller differences. The dyslexia experiment
+uses short Spanish texts, one display and size, comprehension-based exclusions,
+and no non-dyslexic control or sustained-reading evaluation. Its broad category
+claims exceed its detailed reading-time results, and inconsistent category
+preference summaries and an extra prose-only font comparison are not adopted
+here. The code review excludes accessibility studies and pools no font or
+presentation effects; it cannot establish advice for disabled developers.
+
 ## Sources
 
 - [The Cost of Cool: Typographic Style Legibility in Reading at a Glance](/dossiers/cost-of-cool-typographic-style-legibility.md) — Supplies the 31-person Frutiger size, width, and case exposure-threshold comparison, with a size-by-case but not size-by-width interaction.
@@ -134,3 +190,7 @@ setting.
 - [Letter case and text legibility in normal and low vision](/dossiers/letter-case-text-legibility.md) — Adds Arial case-by-acuity-reserve evidence, fixed nominal size versus visible letter size, and the two-person large-text boundary.
 - [Effects of ambient illumination, contrast polarity, and letter size on text legibility under glance-like reading](/dossiers/ambient-illumination-contrast-polarity-letter-size.md) — Shows size and viewing context changing recognition thresholds with Neue Helvetica held constant rather than establishing an optimal family or minimum size.
 - [How bold can we be? The impact of adjusting font grade on readability in light and dark polarities](/dossiers/how-bold-can-we-be-font-grade-polarity.md) — Distinguishes grade from width-changing weight and supplies task-dependent Roboto Flex results, bounded nulls, and reporting inconsistencies.
+- [The influence of font type and line length on visual search and information retrieval in web pages](/dossiers/font-type-line-length-web-search.md) — Adds Arial/Times task-specific performance nulls, differing preference evidence, and approximate physical-size matching rather than a serif-category verdict.
+- [How physical text layout affects reading from screen](/dossiers/physical-text-layout-reading-from-screen.md) — Explains cpl/size/width coupling, older character-density manipulations, and the causal limits of whole-layout packages.
+- [Good Fonts for Dyslexia](/dossiers/good-fonts-for-dyslexia.md) — Adds short Spanish-text evidence separating Arial Italic's speed penalty, category fixation effects, reading-time nulls, and the absence of a demonstrated OpenDyslexic benefit.
+- [Evaluating Code Readability and Legibility: An Examination of Human-centric Studies](/dossiers/code-readability-legibility-human-centric-studies.md) — Adds the visual-identification versus semantic-understanding boundary and limits of opinion and process measures; establishes no font superiority and excludes accessibility studies.

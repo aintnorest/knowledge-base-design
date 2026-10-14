@@ -3,7 +3,7 @@ type: Synthesis
 title: Visibility of System Status
 description: Make current activity, interpretation, and suspended work understandable, while distinguishing visible status from capability, reliability, explanation, and unproven recovery benefits.
 tags: [interaction-design, content-design, cognitive-load, attention, digital-interfaces]
-timestamp: 2026-10-13T00:04:31Z
+timestamp: 2026-10-14T21:39:12Z
 ---
 
 # Visibility of System Status
@@ -65,6 +65,25 @@ is not automatically a priority: an administrative message can be the one a
 person urgently awaits. Distinct colors or dot counts can therefore convey an
 invented hierarchy clearly. [Glanceable Peripheral Displays](/vault/glanceable-peripheral-displays.md)
 addresses low-effort interpretation once inspected, not merely attention capture.
+
+### Match Message Scope and Persistence to the State
+
+Service-notice guidance **recommends** separating service-wide information and
+outcomes from a previous page from information needed for the current task. The
+latter belongs in the task content; validation failures need identifiable local
+messages and a recovery summary rather than a competing general notice.
+
+Success during continuing work differs from terminal journey completion. A
+temporary success notice can confirm an action while more work remains; a finished
+linear journey can warrant dedicated confirmation. Retire stale success feedback
+on navigation so an earlier outcome does not masquerade as current state. Express
+success in words, not color alone, and identify recurring notices consistently.
+These are guidance-based distinctions, not measured advantages of one container.
+
+Status must also be encounterable beyond visual inspection. A prominent notice can
+be skipped through heading navigation; [status announcements](/vault/status-announcements.md)
+addresses nonvisual discovery and dynamic updates without conflating announcement
+with focus movement.
 
 ### Preserve Suspended Work Without Confusing Return with Recovery
 
@@ -141,6 +160,24 @@ by literature and design exploration**, with no timed comprehension or
 multitasking measure. It supports evaluating semantic fit, not a claim that
 compact summaries necessarily improve decisions.
 
+A **1,009-person first-click experiment** displayed fifteen app icons with exactly
+one badge showing a count of one. Across all fifteen app comparisons, a badged icon
+was chosen more often than the same icon when another app carried the badge:
+differences calculated from rounded proportions ranged **9.1–41.5 percentage
+points**, with all contrasts reported **p < .001**. These are not comparisons
+against an entirely badge-free screen or independent replications.
+
+The study measured first choice, not status comprehension, actual unread content,
+urgency, task success, or improved experience. Salience and perceived urgency are
+proposed explanations, not separately tested mechanisms. A cue's ability to
+redirect action does not establish that its implied priority serves the person's
+goal; see [choice architecture effects](/vault/choice-architecture-effects.md).
+
+Service-notice guidance cites external banner-blindness evidence to recommend
+sparse, prioritized notices, but reports **no component-specific miss rate or
+controlled comprehension effect**. It explicitly leaves discovery by assistive-
+technology users and the value of dismissal open to further research.
+
 ### Suspended-State Visibility: Experiment and Field Association
 
 In a **36-person controlled dual-task experiment**, secondary matching work hid
@@ -189,6 +226,12 @@ status or explanations improves accuracy, appropriate reliance, or safety.
   [motion cues and distraction](/vault/motion-cues-attention-and-distraction.md).
 - Keep summaries semantically faithful: distinguish category from current
   priority and avoid replacing needed state meaning with an arbitrary code.
+- Place task-critical information within the task and distinguish local errors,
+  wider service notices, continuing-work success, and terminal confirmation.
+- Remove stale outcome notices when their context ends. Use words and consistent
+  identification rather than relying on color or placement alone.
+- Treat badge-driven clicks as action redirection, not proof of understood status
+  or justified urgency; evaluate whether the destination advances the user's goal.
 - Preserve a visible place to resume and accessible task context across
   interruptions. Treat reminders, context restoration, and recent-action review
   as design hypotheses to evaluate, not proven ways to shorten recovery.
@@ -226,6 +269,12 @@ practitioner judgments, not end-user outcomes or exhaustive ethical coverage.
 Consequently, visible, compact, and explainable are not interchangeable claims,
 and none by itself establishes effective recovery or appropriate reliance.
 
+The badge experiment used one free choice on a static, fixed-layout screen with
+one cue, no real message, and no imposed task priority. It does not establish
+long-term checking, habituation, competing-badge behavior, or nonvisual access.
+The service-notice guidance supplies recommendations and unresolved research
+questions, not demonstrated discovery or completion benefits.
+
 ## Sources
 
 - [Enhancing the Explanatory Power of Usability Heuristics](/dossiers/enhancing-explanatory-power-usability-heuristics.md) — Identifies status visibility as a leading explanatory factor and separates current-state feedback from available-action recognition.
@@ -238,3 +287,5 @@ and none by itself establishes effective recovery or appropriate reliance.
 - [Comparison of Four Primary Methods for Coordinating the Interruption of People in Human–Computer Interaction](/dossiers/coordinating-interruption-four-methods.md) — Exposes the recovery problem of a hidden, continuously evolving primary task in a controlled coordination experiment, without isolating persistent visibility's benefit.
 - [Disruption and Recovery of Computing Tasks: Field Study, Analysis, and Directions](/dossiers/disruption-recovery-computing-tasks.md) — Associates suspended-window visibility with return and distinguishes reminders from multi-application context restoration; recovery designs remain proposals.
 - [Guidelines for Human-AI Interaction](/dossiers/guidelines-for-human-ai-interaction.md) — Separates capability, reliability, action explanation, consequences, and notifications of changed behavior through practitioner inspection rather than causal outcome validation.
+- [Driven by notifications – exploring the effects of badge notifications on user experience](/dossiers/badge-notifications-user-experience.md) — Supplies 1,009-person first-choice redirection by one app badge, without measuring status comprehension, real urgency, experience gains, or sustained use.
+- [GOV.UK Notification Banner Guidance](/dossiers/govuk-notification-banner-guidance.md) — Supplies boundaries between wider notices, task-local information, continuing-work success, and terminal confirmation, with sparse-use rationale but unknown component-specific discovery outcomes.

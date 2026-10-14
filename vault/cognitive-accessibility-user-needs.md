@@ -3,7 +3,7 @@ type: Synthesis
 title: Cognitive Accessibility User Needs
 description: Cognitive accessibility supports independent task completion by reducing avoidable comprehension, memory, attention, and recovery demands, but consensus patterns do not establish universal usability or measured treatment effects.
 tags: [cognitive-accessibility, accessibility, digital-interfaces, cognitive-load, content-design, user-research]
-timestamp: 2026-10-12T20:43:32Z
+timestamp: 2026-10-14T21:39:12Z
 ---
 
 # Cognitive Accessibility User Needs
@@ -58,6 +58,26 @@ additional conformance requirements. It cites a **2020 WCAG 2.2 Working Draft**,
 not the later final Recommendation. The distinction does not make a barrier
 unimportant to the person it excludes.
 
+### Reading Accommodations Need Outcome Evidence
+
+A within-person experiment recruited **48 people with clinically documented
+dyslexia**, with **46 valid eye-tracking recordings**, to read twelve counterbalanced
+**60-word Spanish passages** in different fonts. A font specially designed and
+labeled for dyslexia showed **no demonstrated reading advantage**. Absence of
+superiority in this task does not prove identical performance for every reader.
+
+Some upright, sans-serif, and monospaced settings produced shorter fixations, but
+the category comparisons did **not** establish significant whole-text reading-time
+gains. One italic design was significantly slower than three upright alternatives.
+Liking and reading time were only weakly associated (**r = −.13**), so preference,
+processing measures, and reading speed answer different accommodation questions;
+see [typeface legibility](/vault/typeface-legibility.md).
+
+Comprehension questions filtered out incorrect trials rather than demonstrating
+improved comprehension. The experiment provides task-specific participant evidence
+alongside the broader consensus needs model, not validation of that whole model or
+of a universal dyslexia font.
+
 ## Practical Use
 
 - Identify what the complete task demands of understanding, retention, attention,
@@ -72,6 +92,10 @@ unimportant to the person it excludes.
   independent completion.
 - Observe task success, errors, completion time, and satisfaction rather than
   accepting verbal assurance or automated checks as proof of understanding.
+- Evaluate reading accommodations through relevant comprehension, errors, speed,
+  and user preference rather than trusting a disability-specific label or shorter
+  fixations alone. Preserve individual choice as an **analyst implication**, not a
+  customization intervention proven by the font experiment.
 
 ## Limitations
 
@@ -88,6 +112,14 @@ tasks, conditions, and version examined, not usability for everyone. Situational
 stress or unfamiliar-language testing cannot substitute for participation by
 people with cognitive and learning disabilities.
 
+The font study used short Spanish texts, one display, one nominal size, and no
+non-dyslexic comparison. Equal point size did not match x-height, width, spacing,
+or wrapping; category differences cannot isolate a single typographic cause.
+Its abstract's broad performance claims exceed the detailed reading-time results,
+and some preference summaries conflict internally. It supplies neither sustained-
+reading evidence nor a measured individual-customization benefit.
+
 ## Sources
 
 - [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Supplies the eight-objective needs model, fictional personas, independent-completion testing guidance, and research-informed task-force rationale, bounded as the informative 2021 Note rather than measured treatment effects or WCAG requirements.
+- [Good Fonts for Dyslexia](/dossiers/good-fonts-for-dyslexia.md) — Supplies diagnosed-dyslexia screen-reading evidence separating fixation duration, reading time, and preference, with no demonstrated OpenDyslexic advantage or comprehension improvement; short texts and unmatched glyph dimensions constrain generalization.
