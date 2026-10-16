@@ -85,3 +85,4 @@ Eye tracking is useful but not privileged access to cognition: bottom-up salienc
 - [Preattentive Features](/vault/preattentive-features.md) — Defines single-glance search, feature/conjunction distinctions, similarity and hierarchy limits, and the role of top-down goals.
 - [Working-Memory Capacity Limits](/vault/working-memory-capacity-limits.md) — Adds the distinction between rapid ensemble summaries, retained individual detail, and memory-guided search without asserting a fixed item capacity.
 - [Motion Cues: Attention and Distraction](/vault/motion-cues-attention-and-distraction.md) — Places flicker, motion, and successive visual events within task-dependent selection, blindness, and attentional-blink limits.
+- [Change Detection and Change Blindness](/vault/change-detection.md) — Adds change-comparison and inattentional-blindness evidence while preserving uncertainty about encoding, storage, access, and comparison.

@@ -3,7 +3,7 @@ type: Synthesis
 title: "Motion Cues: Attention and Distraction"
 description: Motion can improve peripheral event detection relative to static changes, but trajectory, competing tasks, and successive events bound its reliability and distraction cost.
 tags: [motion, attention, visual-perception, human-performance, digital-interfaces]
-timestamp: 2026-10-12T20:43:22Z
+timestamp: 2026-10-16T00:00:00Z
 ---
 
 # Motion Cues: Attention and Distraction
@@ -54,6 +54,32 @@ recommend slow local linear motion as a compromise, but this is not a validated
 universal trajectory or frequency recipe. Task context changed detection, and
 the predicted ordering of task difficulty did not match the observed ordering.
 
+## Moving Signals and Moving Text Are Different Problems
+
+Two other dual-task experiments separately measured **interruption** through
+browsing performance, **reaction** through acknowledgment of specified information,
+and **comprehension** through later category/detail questions. With **70
+undergraduates**, horizontal ticker monitoring latency averaged **54.3 seconds**,
+versus **35.5** for in-place fade and **33.6** for abrupt replacement. The ticker
+supported better category recognition and a small detailed-awareness advantage,
+but also more category false alarms. No completion-time difference was detected;
+the no-display control did make fewer incorrect attempts than abrupt replacement.
+“No time difference” therefore does not establish absence of interruption.
+
+A follow-up with **91 undergraduates** again favored fades for reaction. A slow
+fade yielded about **.86 detailed-awareness accuracy**, versus approximately
+**.68–.71** for other implementations, but all participants now received detailed
+questions that could cue retrieval; the first experiment gated those questions on
+correct category recognition. The comprehension ranking is not a clean
+replication. Smaller displays improved monitoring in some comparisons but also
+slowed primary browsing in the reported results.
+
+Motion that helps locate a cue need not help read its content. In-place
+fade-and-replace supported faster extraction of a sought fact than continuously
+traveling text in these tasks. The recommendation to prefer slow fade is
+conditional on the tested browsing situation, implementation, and recall method,
+not proof that all animation is beneficial or that fading is universally best.
+
 ## Salience Does Not Guarantee Notice
 
 A separate perception survey places motion and flicker within task-dependent
@@ -81,6 +107,11 @@ proof of conscious recognition.
   events, rather than only during central inspection.
 - Treat [preattentive features](/vault/preattentive-features.md) as conditional
   search advantages; stronger or faster movement is not automatically better.
+- Distinguish the salience of an event cue from the effort of reading moving text;
+  test whether people can extract the required fact without tracking its travel.
+- Assess [motion sensitivity and reduced motion](/vault/motion-sensitivity-and-reduced-motion.md)
+  separately from average detection or annoyance: neither experiment establishes
+  motion-sensitive users' safety or the sufficiency of a particular alternative.
 
 ## Limitations
 
@@ -97,7 +128,15 @@ or statistical recipes. Tracking and engagement explanations remain inferred,
 not directly measured. The survey supplies no pooled estimate or universal
 reliability guarantee under load.
 
+The text-display experiments add actual primary-task measures but have unresolved
+Experiment 2 trial counts and analysis denominators, a contradictory width-reduction
+claim, and a discussion that understates reported browsing-time effects. Repeated
+task observations are not clearly modeled at participant level. Their short
+undergraduate sessions establish neither long-term harmlessness nor accessibility;
+recall-procedure changes limit cross-experiment comprehension comparisons.
+
 ## Sources
 
 - [Moticons: Detection, Distraction and Task](/dossiers/moticons-detection-distraction-task.md) — Supplies the small dual-task studies, peripheral motion advantage, trajectory-dependent subjective costs, unmeasured primary-task harm, and manuscript inconsistencies.
 - [Attention and Visual Memory in Visualization and Computer Graphics](/dossiers/attention-visual-memory-visualization.md) — Situates motion and flicker in task-dependent selection, inattentional and change blindness, and conditional successive-target reporting limits.
+- [Establishing tradeoffs that leverage attention for utility](/dossiers/notification-display-attention-utility-tradeoffs.md) — Separates browsing interruption, monitoring reaction, and later comprehension in two text-display experiments, with faster reaction to in-place text and recall-dependent comprehension rankings.

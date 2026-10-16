@@ -3,7 +3,7 @@ type: Synthesis
 title: Recognition over Recall
 description: Keeping relevant actions and task context perceivable reduces dependence on remembering information that is no longer available.
 tags: [cognitive-load, interaction-design, cognitive-accessibility, accessibility, digital-interfaces]
-timestamp: 2026-10-14T21:39:45Z
+timestamp: 2026-10-16T00:00:00Z
 ---
 
 # Recognition over Recall
@@ -83,6 +83,13 @@ discoverability when encountering the action is essential, while communicating
 unavailability; not every disabled control needs a place in focus navigation.
 These are accessibility rationales, **not measured discovery or learning gains**.
 
+Expandable-section guidance describes a different benefit: reducing scrolling
+while preserving headings, previews, or section actions outside hidden detail.
+This does not establish that collapsed content is encountered. A single-open
+policy can close one section when another opens; **synthesis inference:** that
+compression may increase switching and memory demands in comparison tasks.
+The pattern supplies no discovery, comprehension, or comparison experiment.
+
 ## Practical Use
 
 - Expose relevant actions and alternatives through perceivable structures rather than relying on remembered commands or undisclosed possibilities.
@@ -101,6 +108,12 @@ These are accessibility rationales, **not measured discovery or learning gains**
   Evaluate whether skipping disabled actions hides necessary capabilities or
   merely avoids redundant steps; see
   [consistency and convention](/vault/consistency-and-convention.md).
+- Choose disclosure policies for the reading task, not page length alone. Keep
+  enough section context visible to make opening a meaningful choice, and allow
+  simultaneous inspection when comparison matters. Reduced scrolling is not
+  evidence of increased encounter; the questionnaire's **10% versus 78%**
+  definition-fixation result is a caution from another task, not an accordion
+  effect estimate.
 
 ## Limitations
 
@@ -135,3 +148,4 @@ unfinished, and environment-dependent rather than a universal shortcut policy.
 - [Developing a Keyboard Interface](/dossiers/aria-apg-keyboard-interface.md) — Recommends navigable discovery before shortcuts and context-sensitive disabled-control access, without measured learning or traversal tradeoffs.
 - [Placeholders in Form Fields Are Harmful](/dossiers/placeholders-in-form-fields.md) — Recommends persistent labels and essential hints across entry, interruption, checking, and repair; observations lack quantified benefits.
 - [Eye-Tracking Data: New Insights on Response Order Effects and Other Cognitive Shortcuts in Survey Responding](/dossiers/response-order-effects-eye-tracking.md) — Supplies persistent versus requested definition encounter rates, with selected conditional readers and no independent comprehension outcome.
+- [Accordion Pattern (Sections With Show/Hide Functionality)](/dossiers/aria-apg-accordion-pattern.md) — Adds the scrolling-versus-hidden-content tradeoff and persistent section representations, without measured discovery or comparison benefits.

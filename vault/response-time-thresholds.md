@@ -51,6 +51,21 @@ the numerical thresholds above, measure an optimal waiting interval, or establis
 instantaneous recovery after closure. See [interruption costs](/vault/interruption-costs.md)
 for the distinct outcome comparisons and inferred mechanisms.
 
+## Wait Feedback Does Not Establish a Cutoff
+
+A **48-person** query experiment favored percent-done feedback over no progress
+feedback (**p = .0006**) during constant **10-second** or variable **1–17-second**
+delays. It found neither a significant overall preference for constant latency
+nor a significant variability-by-progress interaction. This tests feedback and
+preference, not the onset of an acceptable-delay boundary.
+
+In a separate **16-person** duration-matching study, plain **5- and 15-second**
+bars felt equal to visually textured bars lasting **5.61 and 16.75 seconds**.
+Presentation can change judged duration without changing processing speed.
+These attended, completing-bar comparisons do not establish benefits for long
+background work or a threshold for switching feedback types; see
+[progress and wait feedback](/vault/progress-and-wait-feedback.md).
+
 ## Practical Use
 
 - Define timing goals separately for acknowledgment, first useful information, and completion.
@@ -80,3 +95,5 @@ without establishing a universal acceptable delay.
 - [Response Time in Man-Computer Conversational Transactions](/dossiers/response-time-man-computer-conversational-transactions.md) — Miller's closure-based rationale, task-specific calculated guesses, and the distinction from Nielsen's later 0.1/1/10-second synthesis.
 - [First Principles of Interaction Design (Revised & Expanded)](/dossiers/first-principles-of-interaction-design.md) — Practitioner-prescribed escalating wait feedback, prompt acknowledgment, honest progress, and reduction of blocked time, without experiments validating the exact cutoffs.
 - [On the need for attention-aware systems: Measuring effects of interruption on task performance, error rate, and affective state](/dossiers/attention-aware-systems-interruption-effects.md) — Adds controlled boundary-timing evidence and its comparison limits without validating seconds-based thresholds, an optimal delay, or instantaneous recovery.
+- [The Importance of Percent-Done Progress Indicators for Computer-Human Interfaces](/dossiers/percent-done-progress-indicators.md) — Adds measured feedback preference without a significant constant-latency preference or interaction, not a threshold experiment.
+- [Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](/dossiers/faster-progress-bars-perceived-duration.md) — Adds short attended-bar duration matching, not faster work or validated feedback cutoffs.

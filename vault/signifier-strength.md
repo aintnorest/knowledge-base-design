@@ -3,7 +3,7 @@ type: Synthesis
 title: Signifier Strength
 description: Perceivable cues help people recognize meaningful actions and expected outcomes, but cue strength must be distinguished from real affordance, perceived affordance, and learned convention.
 tags: [interaction-design, attention, cognitive-load, digital-interfaces]
-timestamp: 2026-10-14T21:39:45Z
+timestamp: 2026-10-16T00:00:00Z
 ---
 
 # Signifier Strength
@@ -135,6 +135,14 @@ underlying surface, and required content must remain readable when deemphasized.
 The examples illustrate a visual grammar; **no participant study** validates its
 effect on recognition, depth judgment, or disabled-control discovery.
 
+Task-list guidance reports the reverse recognition failure: some users tried to
+select descriptive status labels because they looked like buttons or links.
+It proposes less button-like state treatment and a larger task-entry target, but
+explicitly says the redesign still needs user testing, including accidental
+activation, contrast, and wording. No participant counts, confusion rates, or
+effect sizes are supplied. This is a reported problem and an unvalidated design
+response, not proof that whole-row activation is always better.
+
 ## Practical Use
 
 - Diagnose the missing layer: unavailable action, unnoticed cue, mistaken role,
@@ -162,6 +170,10 @@ effect on recognition, depth judgment, or disabled-control discovery.
   the initial invitation separately from label persistence after typing.
 - Preserve action and state distinctions across presentation modes. Check cues
   on their actual surfaces instead of assuming a palette inversion retains them.
+- Test whether descriptive state is mistaken for an independent action. More
+  forgiving task-entry targets may accommodate attempted clicks but also invite
+  accidental activation; evaluate both. See
+  [task lists and status vocabulary](/vault/task-status-vocabulary.md).
 
 ## Limitations
 
@@ -194,3 +206,4 @@ hierarchical emphasis cannot substitute for accurate labels and usable behavior.
 - [GOV.UK Button Guidance](/dossiers/govuk-button-guidance.md) — Recommends explicit persistence/consequence labels, limited primary emphasis, and evidence-led use of disabled buttons; main guidance effects are unmeasured.
 - [Material 2 Dark Theme](/dossiers/material-dark-theme.md) — Supplies an unmaintained visual model for depth, relative emphasis, and contrast-tested accents across dark surfaces, not measured recognition benefits.
 - [Placeholders in Form Fields Are Harmful](/dossiers/placeholders-in-form-fields.md) — Separates persistent identity from apparent-completion ambiguity through guidance and unquantified observations; floating labels address only part of the problem.
+- [GOV.UK Task List Guidance](/dossiers/govuk-task-list-guidance.md) — Reports status tags mistaken for actions; the redesigned appearance and larger task-entry target still need testing for benefits and accidental activation.

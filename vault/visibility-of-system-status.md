@@ -31,6 +31,12 @@ completion, and an activity indication does not establish that the request was
 interpreted correctly. Combining signals must not obscure which claim is being
 made.
 
+A determinate indicator claims completed work relative to a meaningful whole;
+an indeterminate cue claims activity without a known remaining extent. Neither
+decorative motion nor elapsed animation proves useful work is advancing.
+[Progress and wait feedback](/vault/progress-and-wait-feedback.md) distinguishes
+those operational claims from merely making a wait feel shorter.
+
 Status also includes persistent configuration and modes, not only transitions.
 Expressing current behavior in readable terms lets someone understand the state
 before trying to change it. When context is inferred, that distinction helps keep
@@ -140,6 +146,14 @@ theory with no participant study**. The walkthrough guide grounds meaningful
 progress feedback in exploratory-learning theory, but explicitly supplies
 **no empirical validation of its simplified third version**. Neither provides
 a measured improvement from adding a task-level status cue.
+
+A **48-person** database-query experiment favored percent-done feedback over no
+progress feedback (**p = .0006**), but did not demonstrate multitasking benefits
+or separately establish anxiety reduction. A later **16-person** experiment found
+plain **5- and 15-second** bars felt equal to textured bars lasting **5.61 and
+16.75 seconds**. That is a perceived-duration effect during attended, completing
+bars, not more accurate state understanding, faster execution, or evidence for
+long-running background supervision.
 
 ### Detection versus Glance Interpretation
 
@@ -289,3 +303,5 @@ questions, not demonstrated discovery or completion benefits.
 - [Guidelines for Human-AI Interaction](/dossiers/guidelines-for-human-ai-interaction.md) — Separates capability, reliability, action explanation, consequences, and notifications of changed behavior through practitioner inspection rather than causal outcome validation.
 - [Driven by notifications – exploring the effects of badge notifications on user experience](/dossiers/badge-notifications-user-experience.md) — Supplies 1,009-person first-choice redirection by one app badge, without measuring status comprehension, real urgency, experience gains, or sustained use.
 - [GOV.UK Notification Banner Guidance](/dossiers/govuk-notification-banner-guidance.md) — Supplies boundaries between wider notices, task-local information, continuing-work success, and terminal confirmation, with sparse-use rationale but unknown component-specific discovery outcomes.
+- [The Importance of Percent-Done Progress Indicators for Computer-Human Interfaces](/dossiers/percent-done-progress-indicators.md) — Adds measured preference for progress feedback while keeping multitasking and reassurance mechanisms provisional.
+- [Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](/dossiers/faster-progress-bars-perceived-duration.md) — Separates perceived duration from actual progress, state comprehension, and untested background-work benefits.

@@ -3,7 +3,7 @@ type: Synthesis
 title: Glanceable Peripheral Displays
 description: Compact, meaningful encodings can support quick interpretation once inspected, but expert-rated glanceability and peripheral event detection do not establish improved multitasking or comprehension.
 tags: [attention, visual-perception, interaction-design, digital-interfaces, cognitive-load]
-timestamp: 2026-10-13T00:04:31Z
+timestamp: 2026-10-16T00:00:00Z
 ---
 
 # Glanceable Peripheral Displays
@@ -70,6 +70,23 @@ than anchored motion without a clear general detection advantage. The source
 recommends slow local motion as a compromise, but subjective distraction is not
 a measured primary-task slowdown.
 
+**Text-display tradeoffs:** two browsing experiments with **70 and 91
+undergraduates** measured interruption, reaction, and later comprehension
+separately. In the first, a moving ticker produced slower monitoring
+acknowledgment (**54.3 s**) than in-place fade (**35.5 s**) or abrupt replacement
+(**33.6 s**), yet better category recognition and a small detailed-awareness
+advantage. These are cyclic-display monitoring latencies, not glance durations.
+No completion-time effect was detected, but the no-display control required fewer
+incorrect attempts than abrupt replacement.
+
+The follow-up found much better detailed-awareness performance for slow fade
+(approximately **.86 versus .68–.71** for other conditions). Detailed questions
+were now asked even after failed category recognition, potentially cuing memory;
+the comprehension ranking cannot be attributed to presentation alone. Smaller
+displays improved monitoring in some comparisons but slowed browsing in the
+reported analysis. Less screen area is therefore not necessarily less attention
+cost, and fast extraction is not the same as retained understanding.
+
 ## Practical Use
 
 - Define the question the glance must answer before choosing its visual channel;
@@ -81,6 +98,10 @@ a measured primary-task slowdown.
   source identification, meaning, and disruption as different outcomes.
 - Keep details available for deliberate inspection; abstraction should remove
   irrelevant detail, not consequential information.
+- Evaluate primary-task cost, timely reaction, and later comprehension together.
+  A compact moving summary can be memorable yet slow to extract a sought fact.
+- Keep cued recognition separate from spontaneous awareness when evaluating
+  whether information survives intermittent glances.
 - For software or AI-agent supervision, a small set of meaningful summary states
   with inspectable details is an **extrapolation beyond the studied email and
   abstract dual-task domains**, not a demonstrated improvement in supervision or
@@ -101,7 +122,14 @@ Conflicting identification-error prose and figures and inconsistent statistical
 reporting prevent a precise cue prescription. Neither source establishes an
 independent replication or a general multitasking benefit.
 
+The text-display studies supply behavioral evidence, not measured glanceability
+thresholds. Their short undergraduate sessions, changed recall administration,
+unresolved trial counts and denominators, and unclear participant-level handling
+of repeated observations limit precise inference. They do not establish
+accessibility, sustained monitoring benefits, or a universal best display size.
+
 ## Sources
 
 - [Designing Glanceable Peripheral Displays](/dossiers/designing-glanceable-peripheral-displays.md) — Proposes information-type mappings and four initial interpretation principles through literature, email-display exploration, and nine designers' judgments, without timed performance evidence.
 - [Moticons: Detection, Distraction and Task](/dossiers/moticons-detection-distraction-task.md) — Supplies controlled peripheral detection/localization comparisons and trajectory-dependent subjective distraction, distinct from state comprehension and unmeasured primary-task harm.
+- [Establishing tradeoffs that leverage attention for utility](/dossiers/notification-display-attention-utility-tradeoffs.md) — Adds separately measured interruption, reaction, and comprehension, with implementation- and recall-dependent tradeoffs for moving versus in-place text.
