@@ -3,7 +3,7 @@ type: Synthesis
 title: Status Announcements
 description: Make dynamic status perceivable through assistive technology without moving focus, matching announcement urgency and context to the task while preserving discoverability and time to understand.
 tags: [assistive-technology, accessibility, interaction-design, content-design, attention, digital-interfaces]
-timestamp: 2026-10-14T21:39:12Z
+timestamp: 2026-10-15T04:37:24Z
 ---
 
 # Status Announcements
@@ -45,6 +45,22 @@ meaningful unit, such as “Shopping cart, three items,” rather than only the 
 number. If removal of a busy indicator signifies availability, make that end state
 perceivable too; silent disappearance is not equivalent feedback.
 
+### Announce Movement While Preserving the Next Action
+
+For a reorder or transfer, identify **the item, its old position, and its new
+position**. A position may be a rank in a list or a named destination group;
+the message should make the changed relationship understandable without sight.
+Use **polite** priority for ordinary move completion rather than interrupting
+current speech. This is confirmation of an action, not a request to navigate
+to a new notice.
+
+Keep the moved item or its action trigger active when the task is consecutive
+reordering, so another move does not require finding it again. If transferring
+an item removes it from the source collection, a predictable remaining source
+item can instead be the useful continuation point. Announcing the result and
+choosing that continuation point are separate responsibilities; see
+[accessible reordering](/vault/accessible-reordering.md).
+
 ### Design Initial Discovery and Dynamic Delivery Separately
 
 Alert-pattern guidance says most screen readers announce dynamically rendered
@@ -85,6 +101,11 @@ movement; that conflation is not carried into this synthesis. The keyboard sourc
 also contains unfinished guidance and supplies no measured discovery advantage or
 acceptable extra-navigation budget.
 
+Movement guidance adds an outcome–feedback–continuation model and an illustrative
+example of polite completion messages. It does not establish measured announcement
+rates or a universal follow-the-moved-item rule: consecutive ranking and processing
+remaining source items can call for different focus destinations.
+
 ## Practical Use
 
 - Specify the state, its task meaning, its urgency, and whether a response is
@@ -93,6 +114,8 @@ acceptable extra-navigation budget.
   for a justified response requirement.
 - Include sufficient context in spoken or braille output, including completion
   when a waiting cue disappears.
+- For movement, include item identity and meaningful old/new position, then
+  preserve a useful next-action location rather than focusing the announcement.
 - Provide a discoverable, persistent route to important notices, including those
   initially present, without relying on automatic announcement alone.
 - Evaluate initial load, dynamic updates, heading navigation, disabled-action
@@ -114,3 +137,5 @@ themselves establish an understandable or interruption-free journey.
 - [Developing a Keyboard Interface](/dossiers/aria-apg-keyboard-interface.md) — W3C APG guidance supplies the disabled-control discovery versus navigation-effort tradeoff and separation of focus from state, without measured discovery benefits.
 - [GOV.UK Notification Banner Guidance](/dossiers/govuk-notification-banner-guidance.md) — Supplies named navigable notices, heading-skipping risks, task-local placement, and an explicit announcement/focus wording limitation; missed-notice and dismissal outcomes remain unknown.
 - [Understanding WCAG 2.2](/dossiers/understanding-wcag-2-2.md) — SC 4.1.3's archived commentary and its linked polite-status technique supply the scope, context-equivalence rationale, and urgency boundary; informative explanation and techniques are not empirical outcome validation.
+- [Atlassian Drag and Drop Accessibility Guidelines](/dossiers/atlassian-drag-and-drop-accessibility.md) — Adds item, origin, and destination context for movement feedback and returning to the item's action trigger where possible; does not itself compare announcement priorities.
+- [Example Listboxes with Rearrangeable Options](/dossiers/aria-apg-rearrangeable-listbox.md) — Adds polite completion feedback, repeated-move continuity on a ranked item, and a source-list continuation alternative after transfers; illustrative examples are not interoperability results.
