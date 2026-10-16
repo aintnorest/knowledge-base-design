@@ -3,7 +3,7 @@ type: Synthesis
 title: Consistency and Convention
 description: Stable meanings, learned action consequences, and shared conventions let people reuse knowledge, but familiarity is audience-specific and does not require uniform appearance.
 tags: [interaction-design, cognitive-load, digital-interfaces, usability-evaluation]
-timestamp: 2026-10-14T21:39:45Z
+timestamp: 2026-10-16T00:00:00Z
 ---
 
 # Consistency and Convention
@@ -52,6 +52,14 @@ The sources support different outcomes rather than one universal effect size:
   cited comparisons favor static over automatically reordering menus. These
   ratings are contextual expert assessments, not pooled effects or proof that
   user-controlled adaptation is harmful.
+- **Location stability:** a **27-person** split-menu experiment found a task-optimal
+  static menu faster than an automatically moving one (**306.51 versus 331.62
+  seconds** per 200 selections); user customization helped conditionally on order
+  and uptake. Later toolbar experiments (**26 and eight participants**) favored
+  optional copied shortcuts in ratings and, for repetitive selection, time versus
+  baseline. Copying retained original locations; moving displaced other commands.
+  These are different interventions, not evidence against all automatic change,
+  and stability was not isolated from the other design differences.
 - **Expected ease of use:** three studies with **104, 81, and 108 engineering
   students**, judging **26 layouts** without operating them, found different
   keypad preferences from an earlier population. This cautions against treating
@@ -106,6 +114,10 @@ models, not controlled estimates of the cost of every departure.
   familiar meanings. Test that personalization retains content, critical paths,
   and a clear route back; see
   [cognitive accessibility user needs](/vault/cognitive-accessibility-user-needs.md).
+- Distinguish optional additions from relocating familiar controls. Preserve a
+  stable original route when offering predictions, and include inaccurate
+  predictions and customization setup costs in evaluation; see
+  [system-changed versus user-changed interfaces](/vault/adaptive-versus-adaptable-interfaces.md).
 - Preserve pattern-appropriate group navigation and logical traversal aligned
   with reading order and language direction. Do not impose one entry rule on
   every kind of composite control.
@@ -144,3 +156,5 @@ familiar naming cannot guarantee correct operation or interoperability.
 - [Making Content Usable for People with Cognitive and Learning Disabilities](/dossiers/making-content-usable-cognitive-learning-disabilities.md) — Connects stable meanings, familiar layouts, and predictable routes to cognitive access while qualifying conventions through culture, personal symbols, and controllable adaptation.
 - [Understanding and Supporting the Design Systems Practice](/dossiers/understanding-supporting-design-systems-practice.md) — Adds nine design-system leaders' common-language and coherence rationale, bounded as perceived organizational benefit rather than measured user outcomes.
 - [Developing a Keyboard Interface](/dossiers/aria-apg-keyboard-interface.md) — Adds W3C APG's group-navigation, control-identity, and cross-input continuity rationale, with pattern-dependent entry and unmeasured learning benefits.
+- [A Comparison of Static, Adaptive, and Adaptable Menus](/dossiers/static-adaptive-adaptable-menus.md) — Adds measured static-versus-moving menu costs and conditional user-customization benefits, with a task-optimal static comparator.
+- [Exploring the Design Space for Adaptive Graphical User Interfaces](/dossiers/design-space-adaptive-graphical-interfaces.md) — Qualifies spatial stability through optional copied shortcuts, preserving original locations rather than forbidding all adaptation.

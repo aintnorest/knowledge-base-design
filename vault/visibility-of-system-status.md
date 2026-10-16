@@ -37,6 +37,13 @@ decorative motion nor elapsed animation proves useful work is advancing.
 [Progress and wait feedback](/vault/progress-and-wait-feedback.md) distinguishes
 those operational claims from merely making a wait feel shorter.
 
+An empty result is also a claim, not a loading placeholder. Distinguish work still
+in progress from a completed request with nothing to display; missing setup,
+unavailable data, and a configured system with nothing needing attention are
+different states again. [Empty states](/vault/empty-states.md) explains how brief
+context and an optional route forward can communicate these distinctions. The
+supporting guidance supplies rationale, not measured comprehension benefits.
+
 Status also includes persistent configuration and modes, not only transitions.
 Expressing current behavior in readable terms lets someone understand the state
 before trying to change it. When context is inferred, that distinction helps keep
@@ -305,3 +312,5 @@ questions, not demonstrated discovery or completion benefits.
 - [GOV.UK Notification Banner Guidance](/dossiers/govuk-notification-banner-guidance.md) — Supplies boundaries between wider notices, task-local information, continuing-work success, and terminal confirmation, with sparse-use rationale but unknown component-specific discovery outcomes.
 - [The Importance of Percent-Done Progress Indicators for Computer-Human Interfaces](/dossiers/percent-done-progress-indicators.md) — Adds measured preference for progress feedback while keeping multitasking and reassurance mechanisms provisional.
 - [Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](/dossiers/faster-progress-bars-perceived-duration.md) — Separates perceived duration from actual progress, state comprehension, and untested background-work benefits.
+- [Designing Empty States in Complex Applications: 3 Guidelines](/dossiers/nngroup-empty-states-complex-applications.md) — Distinguishes loading from a completed empty result and warns against premature no-records claims; illustrated practitioner guidance, not a measured effect.
+- [Carbon Empty States](/dossiers/carbon-empty-states.md) — Separates absent data, action outcomes, unavailable data, and configured-but-quiet alerts while recommending proportionate contextual explanation.
